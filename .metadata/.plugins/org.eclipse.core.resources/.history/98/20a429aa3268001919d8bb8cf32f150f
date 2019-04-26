@@ -1,0 +1,19 @@
+package com.buuretraum.audio;
+
+public class SingleSound {
+
+	public void playSound(String s) {
+
+		InputStream in = new FileInputStream(gongFile);
+
+		// create an audiostream from the inputstream
+		audioStream = new AudioStream(in);
+
+		// play the audio clip with the audioplayer class
+		AudioPlayer.player.start(audioStream);
+		 
+		 audioStream.close();
+
+	}
+
+}
