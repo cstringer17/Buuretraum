@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+
+public class starter extends JFrame{
+
+	public static void main(String[] args) {
+		
+		frame gf = new frame();;
+
+	}
+
+}

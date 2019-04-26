@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+
+public class frame extends JFrame{
+
+	public frame(){
+	
+		setSize(1024, 768);
+		setVisible(true);
+		
+	setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+	}
+
+}

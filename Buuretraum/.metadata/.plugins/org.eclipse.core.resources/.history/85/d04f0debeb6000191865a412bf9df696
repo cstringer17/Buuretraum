@@ -1,0 +1,9 @@
+package com.buuretram.sprites;
+
+public class PLa {
+
+	public PLa() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

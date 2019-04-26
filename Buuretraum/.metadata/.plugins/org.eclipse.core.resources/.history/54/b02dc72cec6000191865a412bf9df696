@@ -1,0 +1,15 @@
+package com.buuretraum.main;
+
+import com.buuretraum.frames.menuFrame;
+
+public class Starter {
+
+	public Starter() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		 menuFrame m = new menuFrame();
+	}
+
+}

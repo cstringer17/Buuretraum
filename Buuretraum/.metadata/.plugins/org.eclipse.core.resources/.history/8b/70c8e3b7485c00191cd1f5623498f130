@@ -1,0 +1,21 @@
+import javax.swing.JFrame;
+
+
+public class homeframe extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -714742633586176107L;
+
+	public homeframe() {
+
+		setSize(1024, 768);
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.buuretraum.database;
+
+public class insert {
+
+	public insert() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

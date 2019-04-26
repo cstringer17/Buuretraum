@@ -1,0 +1,9 @@
+package com.buuretraum.test;
+
+public class query {
+
+	public query() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

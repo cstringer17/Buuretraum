@@ -1,0 +1,21 @@
+package com.buuretraum.tech;
+
+public class StringChange {
+
+	public StringChange() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public static String removeChar(String s, char c) {
+		  StringBuffer r = new StringBuffer( s.length() );
+		  r.setLength( s.length() );
+		  int current = 0;
+		  for (int i = 0; i < s.length(); i ++) {
+		     char cur = s.charAt(i);
+		     if (cur != c) r.setCharAt( current++, cur );
+		  }
+		  return r.toString();
+		}
+
+}

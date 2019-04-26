@@ -1,0 +1,57 @@
+package com.buuretraum.frames;
+
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+
+public class menuFrame extends JFrame {
+	private JTextField textField;
+	private JTextField textField_1;
+
+	/**
+	 * Create the panel.
+	 */
+	public menuFrame() {
+		setLayout(null);
+		setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		
+		JLabel lblNewLabel = new JLabel("D' Buuretraum");
+		lblNewLabel.setFont(new Font("Bahnschrift", Font.BOLD | Font.ITALIC, 28));
+		lblNewLabel.setBounds(111, 11, 213, 58);
+		add(lblNewLabel);
+		
+		JButton btnNewButton = new JButton("Register");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
+		btnNewButton.setFont(new Font("Bahnschrift", Font.BOLD, 15));
+		btnNewButton.setBounds(159, 266, 109, 23);
+		add(btnNewButton);
+		
+		JButton button = new JButton("Login");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		button.setFont(new Font("Bahnschrift", Font.BOLD, 15));
+		button.setBounds(160, 232, 109, 23);
+		add(button);
+		
+		textField = new JTextField();
+		textField.setBounds(161, 149, 107, 20);
+		add(textField);
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(159, 107, 109, 20);
+		add(textField_1);
+		textField_1.setColumns(10);
+
+	}
+}

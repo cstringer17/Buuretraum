@@ -1,0 +1,28 @@
+import javax.swing.JFrame;
+import javax.swing.UIManager;
+
+import de.javasoft.plaf.synthetica.*;
+
+public class frame extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -714742633586176107L;
+
+	public frame() {
+
+		setSize(1024, 768);
+		setVisible(true);
+
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		try {
+		    UIManager.setLookAndFeel("de.javasoft.synthetica.aluoxide.SyntheticaAluOxideLookAndFeel");
+		} catch (Exception e) {
+		    e.printStackTrace();
+		}
+		
+	}
+
+}

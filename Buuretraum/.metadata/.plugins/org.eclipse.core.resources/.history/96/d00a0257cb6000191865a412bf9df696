@@ -1,0 +1,14 @@
+package com.buuretraum.frames;
+
+import javax.swing.JPanel;
+
+public class menuFrame extends JPanel {
+
+	/**
+	 * Create the panel.
+	 */
+	public menuFrame() {
+
+	}
+
+}

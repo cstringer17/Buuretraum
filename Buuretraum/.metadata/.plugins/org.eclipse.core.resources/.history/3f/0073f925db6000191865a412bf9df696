@@ -1,0 +1,24 @@
+package com.buuretraum.database;
+
+import java.security.NoSuchAlgorithmException;
+
+import org.mindrot.jbcrypt.BCrypt;
+
+public class password {
+
+	public password() throws NoSuchAlgorithmException {
+
+	}
+
+	public String createHash(String originalPassword) {
+		String s =  SCryptUtil.scrypt(originalPassword, 16, 16, 16);
+		System.out.println(s);
+		return s;
+	}
+
+	public boolean checkPassword(String originalPassword, String generatedSecuredPasswordHash) {
+		return BCrypt.checkpw(originalPassword, generatedSecuredPasswordHash);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.buuretram.sprites;
+
+public class Farm extends Sprite{
+
+	
+	
+	public Farm() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

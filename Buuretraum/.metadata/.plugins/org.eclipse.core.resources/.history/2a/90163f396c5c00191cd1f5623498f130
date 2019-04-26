@@ -1,0 +1,19 @@
+package com.buuretraum.test;
+
+
+
+public class main {
+
+
+
+	public static void main(String[] args) {
+		
+		query q = new query();
+		
+		
+		System.out.println(q.queryDB("select * from player;"));
+		
+		
+	}
+
+}

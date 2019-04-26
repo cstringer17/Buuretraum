@@ -1,0 +1,74 @@
+package com.buuretraum.frames;
+
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+import javax.swing.JPasswordField;
+
+public class menuFrame extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JTextField textField_1;
+	private JPasswordField passwordField;
+
+	/**
+	 * Create the panel.
+	 */
+	public menuFrame() {
+		getContentPane().setLayout(null);
+		setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		
+		setSize(450, 350);
+		setLocationRelativeTo(null);
+
+		JLabel lblNewLabel = new JLabel("D' Buuretraum");
+		lblNewLabel.setFont(new Font("Bahnschrift", Font.BOLD | Font.ITALIC, 28));
+		lblNewLabel.setBounds(111, 11, 213, 58);
+		getContentPane().add(lblNewLabel);
+
+		JButton btnNewButton = new JButton("Register");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			}
+		});
+		btnNewButton.setFont(new Font("Bahnschrift", Font.BOLD, 15));
+		btnNewButton.setBounds(111, 199, 202, 23);
+		getContentPane().add(btnNewButton);
+
+		JButton button = new JButton("Login");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		button.setFont(new Font("Bahnschrift", Font.BOLD, 15));
+		button.setBounds(111, 160, 202, 23);
+		getContentPane().add(button);
+
+		textField_1 = new JTextField();
+		textField_1.setBounds(169, 98, 144, 20);
+		getContentPane().add(textField_1);
+		textField_1.setColumns(10);
+		
+		JLabel lblUsername = new JLabel("Username:");
+		lblUsername.setBounds(108, 101, 58, 14);
+		getContentPane().add(lblUsername);
+		
+		JLabel lblPassword = new JLabel("Password:");
+		lblPassword.setBounds(111, 129, 73, 14);
+		getContentPane().add(lblPassword);
+		
+		passwordField = new JPasswordField();
+		passwordField.setBounds(169, 129, 144, 20);
+		getContentPane().add(passwordField);
+		
+		setVisible(true);
+
+	}
+}

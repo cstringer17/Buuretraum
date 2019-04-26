@@ -1,0 +1,9 @@
+package com.buuretraum.database;
+
+public class password {
+
+	public password() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

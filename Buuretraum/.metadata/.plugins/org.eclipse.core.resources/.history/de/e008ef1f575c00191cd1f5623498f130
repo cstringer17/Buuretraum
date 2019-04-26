@@ -1,0 +1,8 @@
+package com.buuretraum.main;
+
+public abstract class GameObject {
+
+	protected int x,y;
+	protected ID id;
+	
+}

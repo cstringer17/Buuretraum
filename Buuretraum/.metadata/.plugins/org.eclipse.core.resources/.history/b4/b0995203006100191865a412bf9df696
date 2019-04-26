@@ -1,0 +1,11 @@
+package com.buuretraum.main;
+
+public class Farm {
+
+	
+	
+	public Farm() {
+		
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.buuretraum.tech;
+
+public class StringChange {
+
+	public StringChange() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.buuretram.sprites;
+
+public class Plant extends Sprite{
+
+	public Plant() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
