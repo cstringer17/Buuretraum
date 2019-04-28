@@ -1,36 +1,32 @@
 package com.buuretraum.audio;
 
+import java.io.File;
+import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.sound.sampled.DataLine;
 
-import com.buuretraum.main.Starter;
-
-import javazoom.jl.player.advanced.AdvancedPlayer;
 
 public class SingleSound {
 
-	public void playSound(String s) {
+	public void playSound( String url) {
+		try {
+		    File yourFile = new File(url);
+		    AudioInputStream stream;
+		    AudioFormat format;
+		    DataLine.Info info;
+		    Clip clip;
 
-		public static synchronized void playSound(final String url) {
-			  new Thread(new Runnable() {
-			  // The wrapper thread is unnecessary, unless it blocks on the
-			  // Clip finishing; see comments.
-			    public void run() {
-			      try {
-			        Clip clip = AudioSystem.getClip();
-			        AudioInputStream inputStream = AudioSystem.getAudioInputStream(
-			          Starter.class.getResourceAsStream(s + url));
-			        clip.open(inputStream);
-			        clip.start(); 
-			      } catch (Exception e) {
-			        System.err.println(e.getMessage());
-			      }
-			    }
-			  }).start();
-			}
-
-
-	}
-
-}
+		    stream = AudioSystem.getAudioInputStream(yourFile);
+		    format = stream.getFormat();
+		    info = new DataLine.Info(Clip.class, format);
+		    clip = (Clip) AudioSystem.getLine(info);
+		    clip.open(stream);
+		    clip.start();
+		}
+		catch (Exception e) {
+		    //whatevers
+		}
+	
+}}

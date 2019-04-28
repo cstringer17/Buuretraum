@@ -8,6 +8,8 @@ import javax.swing.JFrame;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
+
+import com.buuretraum.audio.SingleSound;
 import com.buuretraum.database.*;
 import com.buuretraum.main.Game;
 import com.lambdaworks.crypto.SCryptUtil;
@@ -24,6 +26,7 @@ public class menuFrame extends JFrame {
 	private insert i;
 	private error r;
 	String loginq;
+	
 
 	/**
 	 * Create the panel.
@@ -35,6 +38,8 @@ public class menuFrame extends JFrame {
 		setSize(450, 350);
 		setLocationRelativeTo(null);
 
+		
+		
 		q = new query();
 		i = new insert();
 

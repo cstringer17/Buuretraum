@@ -1,0 +1,22 @@
+package com.buuretraum.audio;
+
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+
+public class SingleSound {
+
+	public void playSound( String url) {
+		try {
+			AudioClip clip = Applet.newAudioClip(
+			new URL(url));
+			clip.play();
+			System.out.println("played");
+			} catch (MalformedURLException murle) {
+			System.out.println(murle);
+			}
+	}
+	
+}
