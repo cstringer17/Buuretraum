@@ -28,6 +28,8 @@ public class Game extends Canvas implements Runnable {
 	private query q;
 	private ColorFlow cf;
 
+	// todo: add something
+
 	ArrayList<Farm> Farms;
 
 	public Game(String currentUser) {
