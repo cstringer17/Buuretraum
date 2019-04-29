@@ -1,6 +1,8 @@
 package com.buuretraum.main;
 
+import java.awt.Button;
 import java.awt.Canvas;
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Polygon;
 import java.awt.event.KeyEvent;
@@ -12,21 +14,28 @@ import com.buuretraum.animations.ColorFlow;
 import com.buuretraum.database.query;
 import com.buuretraum.sprites.Farm;
 
+import javax.swing.*;
+
 public class Game extends Canvas implements Runnable {
 
 	/**
-	 * 
+	 * Variables and Settings
 	 */
 	private static final long serialVersionUID = 1L;
 	public static final int WIDTH = 1024, HEIGHT = WIDTH / 12 * 9;
 	private Thread thread;
 	private boolean running = false;
 	private String currentUser;
-
 	private boolean initialize;
-
 	private query q;
-	private ColorFlow cf;
+	
+	/**
+	 * JFrame Components
+	 * 
+	 */
+
+	
+	private Button addFarm;
 
 	// todo: add something
 
@@ -41,14 +50,24 @@ public class Game extends Canvas implements Runnable {
 		thread = new Thread(this);
 		thread.start();
 		
-		//addKeyListener(new KeyInput(this));
+		
+		/**
+		 * Variables and Settings
+		 */
 		
 		initialize = true;
 		running = true;
 		q = new query();
 		Farms = new ArrayList<Farm>();
 		
-		cf = new ColorFlow("000000","969696");
+		
+		/**
+		 * JFrame Components
+		 * 
+		 */
+		
+		addFarm = new Button("New Farm");
+		
 
 		loaddata(currentUser);
 
@@ -98,7 +117,7 @@ public class Game extends Canvas implements Runnable {
 
 	private void tick() {
 		
-		cf.updateColor();
+
 	}
 
 	private void render() {
@@ -110,7 +129,13 @@ public class Game extends Canvas implements Runnable {
 
 		Graphics g = bs.getDrawGraphics();
 
+		//create sidebar
+		g.setColor(Color.darkGray);
+		g.fillRect(750, 0, 274, HEIGHT);
+		
+		
 		// paint farms
+		int counter = 0;
 		int x = 20;
 		int y = 200;
 		Polygon p = new Polygon();
@@ -120,8 +145,22 @@ public class Game extends Canvas implements Runnable {
 			p.addPoint(x + 200, y);
 			p.addPoint(x + 200, y + 200);
 			p.addPoint(x, y + 200);
-			g.drawPolygon(p);
+			
+			
+			g.setColor(Color.decode("#9ac68d"));
+			g.fillPolygon(p);
+			
+			g.setColor(Color.black);
+			
+			
+			g.drawString(farm.getName(), x + 20, y + 20);
+			
 			x += 250;
+			counter++;
+			if (counter==3) {
+				x = 20;
+				y += 250;
+			}
 		}
 
 		g.dispose();

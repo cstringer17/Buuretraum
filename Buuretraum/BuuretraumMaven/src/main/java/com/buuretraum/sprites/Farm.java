@@ -13,4 +13,29 @@ public class Farm extends Sprite{
 		this.name = name;
 	}
 
+	public int getIdFarm() {
+		return idFarm;
+	}
+
+	public void setIdFarm(int idFarm) {
+		this.idFarm = idFarm;
+	}
+
+	public int getPlayer_idPLayer() {
+		return Player_idPLayer;
+	}
+
+	public void setPlayer_idPLayer(int player_idPLayer) {
+		Player_idPLayer = player_idPLayer;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+
 }
