@@ -1,9 +1,0 @@
-package com.buuretram.sprites;
-
-public class Sprite {
-
-	public Sprite() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

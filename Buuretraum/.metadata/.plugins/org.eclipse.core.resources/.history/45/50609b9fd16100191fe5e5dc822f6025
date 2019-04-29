@@ -1,9 +1,0 @@
-package com.buuretraum.animations;
-
-public class FarmTitle {
-
-	public FarmTitle() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

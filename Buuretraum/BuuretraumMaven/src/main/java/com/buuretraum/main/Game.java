@@ -4,16 +4,22 @@ import java.awt.Button;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.ImageCapabilities;
 import java.awt.Polygon;
 import java.awt.event.KeyEvent;
 import java.awt.geom.Point2D;
 import java.awt.image.BufferStrategy;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import com.buuretraum.animations.ColorFlow;
 import com.buuretraum.database.query;
 import com.buuretraum.sprites.Farm;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 
 public class Game extends Canvas implements Runnable {
@@ -29,11 +35,13 @@ public class Game extends Canvas implements Runnable {
 	private boolean initialize;
 	private query q;
 	
+	private int frames;
+	
 	/**
-	 * JFrame Components
+	 *  Components
 	 * 
 	 */
-
+	private BufferedImage crossIcon;
 	
 	private Button addFarm;
 
@@ -62,11 +70,16 @@ public class Game extends Canvas implements Runnable {
 		
 		
 		/**
-		 * JFrame Components
+		 *  Components
 		 * 
 		 */
+		try {
+			crossIcon = ImageIO.read(new File("media/images/iconCross.jpg"));
+		} catch (IOException e) {
+			System.out.println("FAILED TO LOAD crossIcon");
+			
+		}
 		
-		addFarm = new Button("New Farm");
 		
 
 		loaddata(currentUser);
@@ -93,7 +106,7 @@ public class Game extends Canvas implements Runnable {
 		double ns = 1000000000 / amountOfTicks;
 		double delta = 0;
 		long timer = System.currentTimeMillis();
-		int frames = 0;
+		frames = 0;
 		while (running) {
 			long now = System.nanoTime();
 			delta += (now - lastTime) / ns;
@@ -108,7 +121,7 @@ public class Game extends Canvas implements Runnable {
 
 			if (System.currentTimeMillis() - timer > 1000) {
 				timer += 1000;
-				System.out.println("FPS: " + frames + "   i = " + initialize);
+				System.out.println("FPS: " + frames);
 				frames = 0;
 			}
 		}
@@ -129,9 +142,26 @@ public class Game extends Canvas implements Runnable {
 
 		Graphics g = bs.getDrawGraphics();
 
+		//Draw FPS
+		g.setColor(Color.yellow);
+		g.drawString("" + frames, 10,10);
+		System.out.println(frames);
+		
 		//create sidebar
+		
+		
 		g.setColor(Color.darkGray);
 		g.fillRect(750, 0, 274, HEIGHT);
+		
+		g.setColor(Color.red);
+		g.fillRect(800, 37, 200, 50);
+		g.setColor(Color.black);
+		g.drawString("New Farm",800 + 25 , 37 + 15);
+		
+		//top right exit
+		g.drawImage(crossIcon, 1000,0, this);
+		
+	
 		
 		
 		// paint farms

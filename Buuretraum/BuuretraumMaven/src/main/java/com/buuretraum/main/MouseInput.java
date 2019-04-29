@@ -16,7 +16,7 @@ public class MouseInput implements MouseListener{
 
 	public void mouseEntered(MouseEvent e) {
 		// TODO Auto-generated method stub
-		System.out.println(e.getComponent());
+		
 		
 	}
 
@@ -30,8 +30,18 @@ public class MouseInput implements MouseListener{
 		System.out.println("Mouse Pressed");
 		int mx = e.getX();
 		int my = e.getY();
-		System.out.println("mx=   " + mx);
-		System.out.println("my=   " + my);
+		
+		//EXIT BUTTON
+		if(mx > 1000 && my < 24) 
+		{
+			System.exit(0);
+		}
+		
+		//NEW FARM BUTTON g.fillRect(800, 37, 200, 50);
+		if(mx > 800 && mx < 1000 && my > 37 && my < 37 + 50) {
+			System.out.println("New Farm");
+		}
+		
 		
 	}
 

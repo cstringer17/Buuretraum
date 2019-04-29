@@ -1,5 +1,0 @@
-package com.buuretraum.main;
-
-public abstract class GameObject {
-
-}
