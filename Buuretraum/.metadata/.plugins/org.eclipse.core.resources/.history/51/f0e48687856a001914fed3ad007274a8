@@ -37,7 +37,6 @@ public class Game extends Canvas implements Runnable {
 	private boolean initialize;
 	private query q;
 	private MouseInput mouse;
-	private MouseMotion mouseMotion;
 	private int frames;
 
 	/**
@@ -82,8 +81,6 @@ public class Game extends Canvas implements Runnable {
 
 		}
 		mouse = new MouseInput();
-		mouseMotion = new MouseMotion();
-		this.addMouseMotionListener(mouseMotion);
 		this.addMouseListener(mouse);
 		loaddata(currentUser);
 

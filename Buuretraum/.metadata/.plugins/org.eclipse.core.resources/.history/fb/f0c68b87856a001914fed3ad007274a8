@@ -1,0 +1,9 @@
+package com.buuretraum.main;
+
+public class MouseMotion {
+
+	public MouseMotion() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

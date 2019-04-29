@@ -36,8 +36,7 @@ public class Game extends Canvas implements Runnable {
 	private String username;
 	private boolean initialize;
 	private query q;
-	private MouseInput mouse;
-	private MouseMotion mouseMotion;
+
 	private int frames;
 
 	/**
@@ -81,10 +80,7 @@ public class Game extends Canvas implements Runnable {
 			System.out.println("FAILED TO LOAD crossIcon");
 
 		}
-		mouse = new MouseInput();
-		mouseMotion = new MouseMotion();
-		this.addMouseMotionListener(mouseMotion);
-		this.addMouseListener(mouse);
+
 		loaddata(currentUser);
 
 	}
@@ -132,7 +128,7 @@ public class Game extends Canvas implements Runnable {
 	}
 
 	private void tick() {
-		
+
 	}
 
 	private void render() {
@@ -197,7 +193,7 @@ public class Game extends Canvas implements Runnable {
 	}
 
 	private void loaddata(String currentUser2) {
-		
+		this.addMouseListener(new MouseInput());
 		// get all farms that belong to current user
 		System.out.println("loading...");
 
@@ -216,5 +212,16 @@ public class Game extends Canvas implements Runnable {
 
 	}
 
+	public void keyPressed(KeyEvent e) {
+		int key = e.getKeyCode();
+
+		if (key == KeyEvent.VK_RIGHT) {
+			System.out.println("testtest");
+		}
+	}
+
+	public void keyRelease(KeyEvent e) {
+		int key = e.getKeyCode();
+	}
 
 }
