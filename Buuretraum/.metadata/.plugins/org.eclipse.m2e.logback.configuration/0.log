@@ -826,3 +826,5 @@
 2019-04-29 13:00:57,241 [Worker-31: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cstring\DATA\BuuretraumDev\Buuretraum\Buuretraum\BuuretraumMaven\src\test\resources
 2019-04-29 13:01:14,287 [Worker-35: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-04-29 13:01:14,291 [Worker-35: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cstring\DATA\BuuretraumDev\Buuretraum\Buuretraum\BuuretraumMaven\src\main\resources
+2019-04-29 13:01:14,292 [Worker-35: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-04-29 13:01:14,297 [Worker-35: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cstring\DATA\BuuretraumDev\Buuretraum\Buuretraum\BuuretraumMaven\src\test\resources
