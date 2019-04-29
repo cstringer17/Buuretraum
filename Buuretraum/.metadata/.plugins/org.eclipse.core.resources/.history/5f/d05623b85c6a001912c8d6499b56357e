@@ -169,7 +169,6 @@ public class Game extends Canvas implements Runnable {
 	}
 
 	private void loaddata(String currentUser2) {
-		this.addMouseListener(new MouseInput());
 		// get all farms that belong to current user
 		System.out.println("loading...");
 
