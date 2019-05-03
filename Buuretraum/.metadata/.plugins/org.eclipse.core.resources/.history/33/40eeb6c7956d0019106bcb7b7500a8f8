@@ -1,0 +1,9 @@
+package com.buuretraum.frames;
+
+public class RegisterFrame {
+
+	public RegisterFrame() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -11,12 +11,12 @@ public class MouseMotion implements MouseMotionListener{
 
 	public void mouseDragged(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-		System.out.println("DRAGGED");
+		
 	}
 
 	public void mouseMoved(MouseEvent arg0) {
 		// TODO Auto-generated method stub
-		System.out.println("MOVED");
+		
 		
 	}
 

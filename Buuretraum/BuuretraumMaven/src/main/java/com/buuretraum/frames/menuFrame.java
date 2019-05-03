@@ -60,18 +60,10 @@ public class menuFrame extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 
-				String username = usernameField.getText();
-				String password = passwordField.getText();
-				String s = q.queryDB("select * from player WHERE username='" + username + "'");
-				if (s.equals("")) {
-					// enter user
-					System.out.println(password);
-					String p = SCryptUtil.scrypt(password, 16, 16, 16);
-					String entry = "INSERT INTO player (username,password) VALUES ('" + username + "','" + p + "');";
-					i.insertData(entry);
-				} else {
-					new error("Username already exists");
-				}
+				
+				RegisterFrame f = new RegisterFrame();
+				
+				
 
 			}
 		});
@@ -94,7 +86,7 @@ public class menuFrame extends JFrame {
 				loginq = "select * from player WHERE username='" + usernameField.getText() + "'";
 
 				String[] temp = q.queryDB(loginq).split(";");
-				String passwordh = removeLastChar(temp[2]);
+				String passwordh = removeLastChar(temp[3]);
 
 				
 				try {
