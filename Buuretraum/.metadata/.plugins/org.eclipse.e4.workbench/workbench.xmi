@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmlns:ui="http://www.eclipse.org/ui/2010/UIModel/application/ui" xmi:id="_ceOPsG2eEemyw6A__-T4-A" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_ceOPsW2eEemyw6A__-T4-A" bindingContexts="_ceO4Tm2eEemyw6A__-T4-A">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;menuFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;BuuretraumMaven/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;query.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;insert.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;RegisterFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFrame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFrame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;RegisterFramee.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFramee.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFramee.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseMotion.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/MouseMotion.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/MouseMotion.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseInput.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/MouseInput.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/MouseInput.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Farm.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/sprites/Farm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/sprites/Farm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FarmTitle.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/animations/FarmTitle.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/animations/FarmTitle.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KeyInput.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/KeyInput.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/KeyInput.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Window.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Window.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Window.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Farm.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretram/sprites/Farm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretram/sprites/Farm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Farm.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Farm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Farm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;StringChange.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/tech/StringChange.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/tech/StringChange.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Plant.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretram/sprites/Plant.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretram/sprites/Plant.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PLa.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretram/sprites/PLa.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretram/sprites/PLa.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Plot.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretram/sprites/Plot.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretram/sprites/Plot.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Sprite.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretram/sprites/Sprite.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretram/sprites/Sprite.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Window.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Window.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Window.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;insert.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RegisterFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFrame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFrame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;error.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/error.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/error.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;query.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;menuFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; tooltip=&quot;BuuretraumMaven/pom.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/pom.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;main.java&quot; tooltip=&quot;restructure/src/main/java/restructure/main.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/restructure/src/main/java/restructure/main.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Starter.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Starter.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Starter.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.objectaid.uml.ClassDiagramEditor&quot; name=&quot;UML.ucls&quot; tooltip=&quot;BuuretraumMaven/media/other/UML.ucls&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/media/other/UML.ucls&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;mainTest.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/testing/mainTest.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/testing/mainTest.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;RegisterFramee.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFramee.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFramee.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseMotion.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/MouseMotion.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/MouseMotion.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseInput.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/MouseInput.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/MouseInput.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Farm.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/sprites/Farm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/sprites/Farm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;FarmTitle.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/animations/FarmTitle.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/animations/FarmTitle.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KeyInput.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/KeyInput.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/KeyInput.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Farm.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretram/sprites/Farm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretram/sprites/Farm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Farm.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Farm.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Farm.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_ceOPsW2eEemyw6A__-T4-A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_ceOPsm2eEemyw6A__-T4-A" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ceOPsW2eEemyw6A__-T4-A" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_ceOPsm2eEemyw6A__-T4-A" label="%trimmedwindow.label.eclipseSDK" x="-1150" y="-11" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -76,7 +76,7 @@
           <tags>persp.viewSC:org.eclipse.ant.ui.views.AntView</tags>
           <tags>persp.actionSet:org.eclipse.wb.core.ui.actionset</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPtW2eEemyw6A__-T4-A" selectedElement="_ceOPv22eEemyw6A__-T4-A" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPtm2eEemyw6A__-T4-A" containerData="1894" selectedElement="_ceOPt22eEemyw6A__-T4-A">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPtm2eEemyw6A__-T4-A" containerData="1792" selectedElement="_ceOPt22eEemyw6A__-T4-A">
               <children xsi:type="basic:PartStack" xmi:id="_ceOPt22eEemyw6A__-T4-A" elementId="left" containerData="6000" selectedElement="_ceOPuG2eEemyw6A__-T4-A">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ceOPuG2eEemyw6A__-T4-A" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_ceORNm2eEemyw6A__-T4-A" closeable="true">
@@ -107,7 +107,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPv22eEemyw6A__-T4-A" containerData="8106" selectedElement="_ceOPyW2eEemyw6A__-T4-A">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPv22eEemyw6A__-T4-A" containerData="8208" selectedElement="_ceOPwG2eEemyw6A__-T4-A">
               <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPwG2eEemyw6A__-T4-A" containerData="7500" selectedElement="_ceOPwW2eEemyw6A__-T4-A" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_ceOPwW2eEemyw6A__-T4-A" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_ceOREW2eEemyw6A__-T4-A"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_ceOPwm2eEemyw6A__-T4-A" containerData="2500" selectedElement="_ceOPxW2eEemyw6A__-T4-A">
@@ -136,7 +136,6 @@
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_ceOPyW2eEemyw6A__-T4-A" elementId="bottom" containerData="2500" selectedElement="_ceOPzm2eEemyw6A__-T4-A">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_ceOPym2eEemyw6A__-T4-A" elementId="org.eclipse.ui.views.ProblemView" ref="_ceORsW2eEemyw6A__-T4-A" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -214,11 +213,12 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_ceOREW2eEemyw6A__-T4-A" elementId="org.eclipse.ui.editorss" selectedElement="_ceOREm2eEemyw6A__-T4-A">
-      <children xsi:type="basic:PartStack" xmi:id="_ceOREm2eEemyw6A__-T4-A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_94JPYG8rEemEhu8CYcyqJQ">
+      <children xsi:type="basic:PartStack" xmi:id="_ceOREm2eEemyw6A__-T4-A" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_VgyjkIe1EemMPp2_jFdazA">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_ceORE22eEemyw6A__-T4-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Starter.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Starter.java&quot; partName=&quot;Starter.java&quot; title=&quot;Starter.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Starter.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Starter.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;284&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Starter.java&quot; partName=&quot;Starter.java&quot; title=&quot;Starter.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Starter.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Starter.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;156&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -271,121 +271,61 @@
             <tags>popup:#OverviewRulerContext</tags>
           </menus>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_ceORHW2eEemyw6A__-T4-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Game.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; partName=&quot;Game.java&quot; title=&quot;Game.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4482&quot; selectionTopPixel=&quot;2380&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORHm2eEemyw6A__-T4-A" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORH22eEemyw6A__-T4-A" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORIG2eEemyw6A__-T4-A" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORIW2eEemyw6A__-T4-A" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORIm2eEemyw6A__-T4-A" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORI22eEemyw6A__-T4-A" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORJG2eEemyw6A__-T4-A" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORJW2eEemyw6A__-T4-A" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORJm2eEemyw6A__-T4-A" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_ceORJ22eEemyw6A__-T4-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MouseMotion.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MouseMotion.java&quot; partName=&quot;MouseMotion.java&quot; title=&quot;MouseMotion.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/MouseMotion.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/MouseMotion.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORKG2eEemyw6A__-T4-A" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORKW2eEemyw6A__-T4-A" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORKm2eEemyw6A__-T4-A" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORK22eEemyw6A__-T4-A" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORLG2eEemyw6A__-T4-A" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_ceORLW2eEemyw6A__-T4-A" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_94JPYG8rEemEhu8CYcyqJQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="insert.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;insert.java&quot; partName=&quot;insert.java&quot; title=&quot;insert.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;4&quot; selectionOffset=&quot;708&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_9-yp8G8rEemEhu8CYcyqJQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="query.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;query.java&quot; partName=&quot;query.java&quot; title=&quot;query.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;32&quot; selectionLength=&quot;230&quot; selectionOffset=&quot;415&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
         <children xsi:type="basic:Part" xmi:id="_n8O8QG8sEemEhu8CYcyqJQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BuuretraumMaven/pom.xml" iconURI="platform:/plugin/org.eclipse.m2e.editor/icons/editor-pom.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.m2e.editor.MavenPomEditor&quot; name=&quot;pom.xml&quot; partName=&quot;BuuretraumMaven/pom.xml&quot; title=&quot;BuuretraumMaven/pom.xml&quot; tooltip=&quot;BuuretraumMaven/pom.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/pom.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.m2e.editor.MavenPomEditor</tags>
           <tags>removeOnHide</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_LmQHsG84EemEhu8CYcyqJQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="menuFrame.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;menuFrame.java&quot; partName=&quot;menuFrame.java&quot; title=&quot;menuFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1952&quot; selectionTopPixel=&quot;675&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_rqZGsIevEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="UML.ucls" iconURI="platform:/plugin/com.objectaid.uml.cls/icons/class-diagram.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.objectaid.uml.ClassDiagramEditor&quot; name=&quot;UML.ucls&quot; partName=&quot;UML.ucls&quot; title=&quot;UML.ucls&quot; tooltip=&quot;BuuretraumMaven/media/other/UML.ucls&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/media/other/UML.ucls&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.objectaid.uml.ClassDiagramEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_3z8dAIewEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Game.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Game.java&quot; partName=&quot;Game.java&quot; title=&quot;Game.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Game.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;4640&quot; selectionOffset=&quot;32&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_HBoSsIeyEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="menuFrame.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;menuFrame.java&quot; partName=&quot;menuFrame.java&quot; title=&quot;menuFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/menuFrame.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;3079&quot; selectionOffset=&quot;32&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_XyiEEIeyEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="query.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;query.java&quot; partName=&quot;query.java&quot; title=&quot;query.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/query.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;911&quot; selectionOffset=&quot;258&quot; selectionTopPixel=&quot;22&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_eY_asIeyEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="error.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;error.java&quot; partName=&quot;error.java&quot; title=&quot;error.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/error.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/error.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;569&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_0_4vEIeyEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RegisterFrame.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RegisterFrame.java&quot; partName=&quot;RegisterFrame.java&quot; title=&quot;RegisterFrame.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFrame.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/frames/RegisterFrame.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3710&quot; selectionTopPixel=&quot;1338&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_7r1CoIeyEemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="insert.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;insert.java&quot; partName=&quot;insert.java&quot; title=&quot;insert.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/database/insert.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;665&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_VgyjkIe1EemMPp2_jFdazA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Window.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Window.java&quot; partName=&quot;Window.java&quot; title=&quot;Window.java&quot; tooltip=&quot;BuuretraumMaven/src/main/java/com/buuretraum/main/Window.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BuuretraumMaven/src/main/java/com/buuretraum/main/Window.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;653&quot; selectionOffset=&quot;30&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -495,8 +435,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_ceORvm2eEemyw6A__-T4-A" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -730,7 +668,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ceOSXG2eEemyw6A__-T4-A" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_13JNYG8rEemEhu8CYcyqJQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ceQFNm2eEemyw6A__-T4-A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_j6xIkIevEemMPp2_jFdazA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ceQFNm2eEemyw6A__-T4-A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ceOSam2eEemyw6A__-T4-A" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -766,10 +704,10 @@
           <visibleWhen xsi:type="ui:CoreExpression" xmi:id="_ceOSq22eEemyw6A__-T4-A" coreExpressionId="programmatic.value"/>
         </children>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_ceOStG2eEemyw6A__-T4-A" elementId="com.objectaid.uml.addon.cls.alignment" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_ceOStG2eEemyw6A__-T4-A" elementId="com.objectaid.uml.addon.cls.alignment">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_ceOStW2eEemyw6A__-T4-A" elementId="com.objectaid.uml.addon.cls.display" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_ceOStW2eEemyw6A__-T4-A" elementId="com.objectaid.uml.addon.cls.display">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ceOStm2eEemyw6A__-T4-A" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -787,7 +725,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ceOS1W2eEemyw6A__-T4-A" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_13LCkG8rEemEhu8CYcyqJQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_cePh922eEemyw6A__-T4-A"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_j6y9wYevEemMPp2_jFdazA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_cePh922eEemyw6A__-T4-A"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ceOS4G2eEemyw6A__-T4-A" elementId="org.eclipse.wb.core.guiEditor" visible="false">
         <tags>Draggable</tags>
@@ -1723,6 +1661,12 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.wst.xml.ui"/>
     <tags>View</tags>
     <tags>categoryTag:XML</tags>
+  </descriptors>
+  <descriptors xmi:id="_j5rjcIevEemMPp2_jFdazA" elementId="diagramTable" label="Diagrams" iconURI="platform:/plugin/com.objectaid.uml.addon/icons/class-diagram.gif" tooltip="" category="ObjectAid" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <persistedState key="originalCompatibilityViewClass" value="com.objectaid.uml.addon.diagrams.DiagramTableView"/>
+    <persistedState key="originalCompatibilityViewBundle" value="com.objectaid.uml.addon"/>
+    <tags>View</tags>
+    <tags>categoryTag:ObjectAid</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">

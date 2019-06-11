@@ -1,9 +1,0 @@
-package com.buuretraum.main;
-
-public class MouseInput {
-
-	public MouseInput() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

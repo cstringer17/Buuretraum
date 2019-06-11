@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="java.awt.Button"/>
 <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
+<fullyQualifiedTypeName name="javax.management.Query"/>
+<fullyQualifiedTypeName name="com.buuretraum.database.query"/>
 </qualifiedTypeNameHistroy>
