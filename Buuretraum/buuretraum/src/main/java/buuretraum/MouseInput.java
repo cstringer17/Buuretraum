@@ -87,7 +87,7 @@ public class MouseInput implements MouseListener {
 
 		// NEW FARM BUTTON g.fillRect(800, 37, 200, 50);
 		if (mx > 800 && mx < 1000 && my > 37 && my < 37 + 50) {
-			System.out.println("New Farm");
+			
 			q.addFarm(CurrentInformationSingle.getInstance().currentUser);
 			
 		}

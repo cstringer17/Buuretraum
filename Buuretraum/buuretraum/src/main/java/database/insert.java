@@ -29,4 +29,9 @@ public class insert {
 
 	}
 
+	public void addFarm(String currentUser, String name) {
+		String insertQuery = "INSERT INTO farm (Player_idPLayer, Name) VALUES ( "+ currentUser + "," + name + ");" ;
+		System.out.println(insertQuery);
+	}
+
 }
