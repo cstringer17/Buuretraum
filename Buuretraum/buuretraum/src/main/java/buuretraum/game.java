@@ -52,6 +52,12 @@ public class game extends Canvas implements Runnable {
 	public synchronized void start() {
 		Farms = new ArrayList<Farm>();
 		loaddata(currentUser);
+		
+		/**
+		 * Save Current User to Singleton File
+		 * */
+		CurrentInformationSingle.getInstance().currentUser = currentUser;
+		
 		thread = new Thread(this);
 		thread.start();
 

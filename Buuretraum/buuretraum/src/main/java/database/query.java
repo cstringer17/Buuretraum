@@ -78,4 +78,20 @@ public class query {
 		return str.substring(0, str.length() - 1);
 	}
 
+	public void addFarm(String currentUser) throws ArrayIndexOutOfBoundsException{
+		//check if 6 farms are already there
+		query q = new query();
+		String query = "select * from farm WHERE Player_idPLayer=" + currentUser + ";";
+		String[] farmtest = database.query.queryDB(query).split("#");
+		if (farmtest[5] != null) {
+			//addfarms
+			System.out.println("ADDS FARM");
+		}else {
+			error r = new error("Max Farms Reached");
+		}
+		
+		
+		
+	}
+
 }
