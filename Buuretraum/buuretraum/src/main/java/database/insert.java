@@ -30,8 +30,14 @@ public class insert {
 	}
 
 	public void addFarm(String currentUser, String name) {
-		String insertQuery = "INSERT INTO farm (Player_idPLayer, Name) VALUES ( "+ currentUser + "," + name + ");" ;
-		System.out.println(insertQuery);
+		String insertQuery = "INSERT INTO farm (Player_idPLayer, Name) VALUES ( '"+ currentUser + "','" + name + "');" ;
+		insertData(insertQuery);
+	}
+
+	public void removeFarm(String farmtest) {
+		String[] info = farmtest.split(";");
+		String deleteQuery = "DELETE FROM farm WHERE idFarm=" + info[0] + ";";
+		insertData(deleteQuery);
 	}
 
 }

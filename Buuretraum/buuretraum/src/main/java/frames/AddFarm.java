@@ -34,24 +34,24 @@ public class AddFarm {
 		i = new insert();
 		
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(100, 100, 340, 168);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
 		
 		textField = new JTextField();
-		textField.setBounds(67, 58, 306, 140);
+		textField.setBounds(10, 39, 306, 35);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setText("Enter the new farm name");
 		lblNewLabel.setFont(new Font("Bahnschrift", Font.BOLD | Font.ITALIC, 14));
-		lblNewLabel.setBounds(0, 30, 434, 17);
+		lblNewLabel.setBounds(10, 11, 306, 17);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JButton btnConfirm = new JButton("Confirm");
-		btnConfirm.setBounds(0, 209, 434, 23);
+		btnConfirm.setBounds(10, 85, 306, 23);
 		frame.getContentPane().add(btnConfirm);
 		btnConfirm.addActionListener(new ActionListener() {
 			

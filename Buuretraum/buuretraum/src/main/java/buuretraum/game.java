@@ -202,6 +202,7 @@ public class game extends Canvas implements Runnable {
 			String[] insert = null;
 			insert = sx.split(";");
 			Farms.add(new Farm(Integer.parseInt(insert[0]), Integer.parseInt(insert[1]), insert[2]));
+			System.out.println(Farm);
 		}
 
 	}

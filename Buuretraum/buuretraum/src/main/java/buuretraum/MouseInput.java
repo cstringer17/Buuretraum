@@ -10,7 +10,7 @@ import frames.DropDown;
 
 public class MouseInput implements MouseListener {
 
-	DropDown popup = new DropDown();
+	DropDown popup; 
 	query q = new query();
 
 	public MouseInput() {
@@ -39,45 +39,30 @@ public class MouseInput implements MouseListener {
 		int mx = e.getX();
 		int my = e.getY();
 
-		// check for farms
-
-		if (SwingUtilities.isRightMouseButton(e)) {
-			// right click menu
-			if (mx > 20 && mx < 20 + 200 && my > 200 && my < 400 || mx > 270 && mx < 270 + 200 && my > 200 && my < 400
-					|| mx > 530 && mx < 530 + 200 && my > 200 && my < 400
-					|| mx > 20 && mx < 20 + 200 && my > 450 && my < 650
-					|| mx > 270 && mx < 270 + 200 && my > 450 && my < 650
-					|| mx > 530 && mx < 530 + 200 && my > 450 && my < 650
-
-			) {
-				System.out.println("RIGHT");
-				popup.menu.show(e.getComponent(), e.getX(), e.getY());
-				{
-				}
-			}
-
-		}
+		
+		
+		
 		 /**
 		  * FARMS
 		  * 
 		  * */
 		if (mx > 20 && mx < 20 + 200 && my > 200 && my < 400) {
-			System.out.println("FARM1");
+			checkright(e, mx, my, 1);
 		}
 		if (mx > 270 && mx < 270 + 200 && my > 200 && my < 400) {
-			System.out.println("FARM2");
+			checkright(e, mx, my, 2);
 		}
 		if (mx > 530 && mx < 530 + 200 && my > 200 && my < 400) {
-			System.out.println("FARM3");
+			checkright(e, mx, my, 3);
 		}
 		if (mx > 20 && mx < 20 + 200 && my > 450 && my < 650) {
-			System.out.println("FARM4");
+			checkright(e, mx, my, 4);
 		}
 		if (mx > 270 && mx < 270 + 200 && my > 450 && my < 650) {
-			System.out.println("FARM5");
+			checkright(e, mx, my, 5);
 		}
 		if (mx > 530 && mx < 530 + 200 && my > 450 && my < 650) {
-			System.out.println("FARM6");
+			checkright(e, mx, my, 6);
 		}
 
 		// EXIT BUTTON
@@ -87,11 +72,31 @@ public class MouseInput implements MouseListener {
 
 		// NEW FARM BUTTON g.fillRect(800, 37, 200, 50);
 		if (mx > 800 && mx < 1000 && my > 37 && my < 37 + 50) {
-			
 			q.addFarm(CurrentInformationSingle.getInstance().currentUser);
-			
 		}
 
+	}
+	
+	public boolean checkright(MouseEvent e, int mx, int my, int farmnumber) {
+		if (SwingUtilities.isRightMouseButton(e)) {
+			// right click menu
+			if (mx > 20 && mx < 20 + 200 && my > 200 && my < 400 || mx > 270 && mx < 270 + 200 && my > 200 && my < 400
+					|| mx > 530 && mx < 530 + 200 && my > 200 && my < 400
+					|| mx > 20 && mx < 20 + 200 && my > 450 && my < 650
+					|| mx > 270 && mx < 270 + 200 && my > 450 && my < 650
+					|| mx > 530 && mx < 530 + 200 && my > 450 && my < 650
+
+			) {
+				popup = new DropDown(farmnumber);
+				popup.menu.show(e.getComponent(), e.getX(), e.getY());
+				{
+				}
+			}
+
+		}
+		
+		return false;
+		
 	}
 
 	public void mouseReleased(MouseEvent e) {

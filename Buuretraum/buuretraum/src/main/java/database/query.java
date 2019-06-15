@@ -9,6 +9,7 @@ import java.util.TimeZone;
 
 import com.lambdaworks.crypto.SCryptUtil;
 
+import buuretraum.CurrentInformationSingle;
 import buuretraum.game;
 import frames.error;
 
@@ -92,6 +93,14 @@ public class query {
 			frames.AddFarm ei = new frames.AddFarm();
 		}
 
+	}
+
+	public void removeFarm(int farmnumber) {
+		String query = "select * from farm WHERE Player_idPLayer=" + CurrentInformationSingle.getInstance().currentUser + ";";
+		String[] farmtest = queryDB(query).split("#");
+		insert i = new insert();
+		i.removeFarm(farmtest[farmnumber-1]);
+		
 	}
 
 }
