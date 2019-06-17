@@ -5,9 +5,12 @@ import java.awt.Dimension;
 
 import javax.swing.JFrame;
 
+import buuretraum.CurrentInformationSingle;
 import buuretraum.game;
 
 public class window extends Canvas{
+	
+
 
 	public window(int width, int height, String title, game game) {
 		
@@ -29,6 +32,8 @@ public class window extends Canvas{
 		
 		game.start();
 	}
+	
+
 	
 	
 }

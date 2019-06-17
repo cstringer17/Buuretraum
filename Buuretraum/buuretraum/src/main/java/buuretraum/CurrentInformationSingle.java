@@ -5,7 +5,8 @@ public class CurrentInformationSingle {
 	private static CurrentInformationSingle single_instance = null;
 	
 	public String currentUser;
-	public String dynamicAnswer;
+	public int mouseCounter;
+	public boolean View ;
 
 	private CurrentInformationSingle() {
 

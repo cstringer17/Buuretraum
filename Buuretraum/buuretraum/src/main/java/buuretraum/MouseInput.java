@@ -5,13 +5,15 @@ import java.awt.event.MouseListener;
 
 import javax.swing.SwingUtilities;
 
+import database.loaddata;
 import database.query;
 import frames.DropDown;
 
 public class MouseInput implements MouseListener {
 
-	DropDown popup; 
+	DropDown popup;
 	query q = new query();
+	loaddata ld = new loaddata();
 
 	public MouseInput() {
 		// TODO Auto-generated constructor stub
@@ -38,31 +40,47 @@ public class MouseInput implements MouseListener {
 		System.out.println("Mouse Pressed");
 		int mx = e.getX();
 		int my = e.getY();
+		if (CurrentInformationSingle.getInstance().View) {
+			mousedPressedMenuFrame(mx, my, e);
+		}else {
+			
+		}
+		
 
-		
-		
-		
-		 /**
-		  * FARMS
-		  * 
-		  * */
+	}
+
+	private void mousedPressedMenuFrame(int mx, int my, MouseEvent e) {
+
+		CurrentInformationSingle.getInstance().mouseCounter += 1;
+
+		/**
+		 * FARMS
+		 * 
+		 */
 		if (mx > 20 && mx < 20 + 200 && my > 200 && my < 400) {
-			checkright(e, mx, my, 1);
+			checkRightClickMenuFrame(e, mx, my, 1);
+			doubleClickMenuFrame(1);
+
 		}
 		if (mx > 270 && mx < 270 + 200 && my > 200 && my < 400) {
-			checkright(e, mx, my, 2);
+			checkRightClickMenuFrame(e, mx, my, 2);
+			doubleClickMenuFrame(2);
 		}
 		if (mx > 530 && mx < 530 + 200 && my > 200 && my < 400) {
-			checkright(e, mx, my, 3);
+			checkRightClickMenuFrame(e, mx, my, 3);
+			doubleClickMenuFrame(3);
 		}
 		if (mx > 20 && mx < 20 + 200 && my > 450 && my < 650) {
-			checkright(e, mx, my, 4);
+			checkRightClickMenuFrame(e, mx, my, 4);
+			doubleClickMenuFrame(4);
 		}
 		if (mx > 270 && mx < 270 + 200 && my > 450 && my < 650) {
-			checkright(e, mx, my, 5);
+			checkRightClickMenuFrame(e, mx, my, 5);
+			doubleClickMenuFrame(5);
 		}
 		if (mx > 530 && mx < 530 + 200 && my > 450 && my < 650) {
-			checkright(e, mx, my, 6);
+			checkRightClickMenuFrame(e, mx, my, 6);
+			doubleClickMenuFrame(6);
 		}
 
 		// EXIT BUTTON
@@ -76,8 +94,37 @@ public class MouseInput implements MouseListener {
 		}
 
 	}
-	
-	public boolean checkright(MouseEvent e, int mx, int my, int farmnumber) {
+
+	private void doubleClickMenuFrame(int farm) {
+
+		if (CurrentInformationSingle.getInstance().mouseCounter == 2) {
+			CurrentInformationSingle.getInstance().mouseCounter = 0;
+			openFarmMenuFrame(farm);
+		}
+
+	}
+
+	private void openFarmMenuFrame(int farm) {
+		System.out.println(farm);
+		String holder = ld.load(CurrentInformationSingle.getInstance().currentUser);
+
+		String[] Farm = holder.split("#");
+
+		for (String sx : Farm) {
+
+			String[] insert = null;
+			insert = sx.split(";");
+			System.out.println("Farms:   " + Farm.length);
+			if (Farm.length >= farm) {
+				CurrentInformationSingle.getInstance().View = false;
+				System.out.println("Attempting to open farm: " + Farm[farm - 1]);
+			}
+
+		}
+
+	}
+
+	public boolean checkRightClickMenuFrame(MouseEvent e, int mx, int my, int farmnumber) {
 		if (SwingUtilities.isRightMouseButton(e)) {
 			// right click menu
 			if (mx > 20 && mx < 20 + 200 && my > 200 && my < 400 || mx > 270 && mx < 270 + 200 && my > 200 && my < 400
@@ -94,9 +141,9 @@ public class MouseInput implements MouseListener {
 			}
 
 		}
-		
+
 		return false;
-		
+
 	}
 
 	public void mouseReleased(MouseEvent e) {

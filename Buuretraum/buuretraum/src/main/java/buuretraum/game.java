@@ -16,6 +16,7 @@ import database.loaddata;
 
 import javax.imageio.ImageIO;
 import database.query;
+import frames.error;
 import frames.window;
 
 public class game extends Canvas implements Runnable {
@@ -30,7 +31,8 @@ public class game extends Canvas implements Runnable {
 
 	private String currentUser;
 	private loaddata ld;
-
+	private String activeFrame; 
+	
 	private query q;
 	private MouseInput mouse;
 	private MouseMotion mouseMotion;
@@ -50,9 +52,11 @@ public class game extends Canvas implements Runnable {
 	}
 
 	public synchronized void start() {
+		System.out.println("starting");
 		Farms = new ArrayList<Farm>();
+		System.out.println("loading");
 		loaddata(currentUser);
-		
+		CurrentInformationSingle.getInstance().View = true;
 		/**
 		 * Save Current User to Singleton File
 		 * */
@@ -60,7 +64,10 @@ public class game extends Canvas implements Runnable {
 		
 		thread = new Thread(this);
 		thread.start();
+		CurrentInformationSingle.getInstance().View = true;
 
+		
+		
 		/**
 		 * Variables and Settings
 		 */
@@ -89,6 +96,7 @@ public class game extends Canvas implements Runnable {
 		try {
 			thread.join();
 			running = false;
+			System.out.println("Stopped");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -112,13 +120,20 @@ public class game extends Canvas implements Runnable {
 				delta--;
 			}
 			if (running)
-				render();
+				if (CurrentInformationSingle.getInstance().View) {
+					renderMenu();
+				}else {
+					renderFarm();
+				}
+				
+				
 			frames++;
 
 			if (System.currentTimeMillis() - timer > 1000) {
 				timer += 1000;
 				System.out.println("FPS: " + frames);
 				loaddata(currentUser);
+				CurrentInformationSingle.getInstance().mouseCounter = 0;
 				frames = 0;
 			}
 		}
@@ -126,17 +141,24 @@ public class game extends Canvas implements Runnable {
 	}
 
 	private void tick() {
+		
+		if (!CurrentInformationSingle.getInstance().View) {
+			activeFrame = "FarmView";
+		}
+		
 
 	}
 
-	private void render() {
+	private void renderMenu() {
 		BufferStrategy bs = this.getBufferStrategy();
 		if (bs == null) {
-			this.createBufferStrategy(1);
+			this.createBufferStrategy(2);
 			return;
 		}
 
 		Graphics g = bs.getDrawGraphics();
+		
+	
 		// Title
 		Font orgFont = g.getFont();
 		g.setFont(new Font("Bahnschrift", Font.PLAIN, 60));
@@ -185,25 +207,50 @@ public class game extends Canvas implements Runnable {
 			}
 		}
 
+		
 		g.dispose();
 		bs.show();
 
 	}
 
+	private void renderFarm() {
+		BufferStrategy bs = this.getBufferStrategy();
+		if (bs == null) {
+			this.createBufferStrategy(2);
+			return;
+		}
+
+		Graphics g = bs.getDrawGraphics();
+		g.setColor(Color.white);
+		g.fillRect(0, 0, WIDTH, HEIGHT);
+		
+		g.dispose();
+		bs.show();
+
+
+	}
+	
 	private void loaddata(String currentUser2) {
 		// get all farms that belong to current user
 		ld = new loaddata();
 
 		Farms.clear();
-
-		String[] Farm = ld.load(currentUser2).split("#");
+		
+		String holder = ld.load(currentUser2);
+		
+		if (holder.equals("")) {
+			return;
+		}
+		
+		String[] Farm = holder.split("#");
 
 		for (String sx : Farm) {
+			
 			String[] insert = null;
 			insert = sx.split(";");
 			Farms.add(new Farm(Integer.parseInt(insert[0]), Integer.parseInt(insert[1]), insert[2]));
-			System.out.println(Farm);
 		}
+	
 
 	}
 
