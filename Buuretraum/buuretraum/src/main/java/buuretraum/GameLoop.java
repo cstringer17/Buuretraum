@@ -1,6 +1,5 @@
 package buuretraum;
 
-import java.awt.Button;
 import java.awt.Canvas;
 import java.awt.Color;
 import java.awt.Font;
@@ -12,75 +11,59 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import database.loaddata;
+import database.LoadDataSQL;
 
 import javax.imageio.ImageIO;
-import database.query;
-import frames.error;
-import frames.window;
+import database.QuerySQL;
+import frames.WindowObject;
 
-public class game extends Canvas implements Runnable {
+public class GameLoop extends Canvas implements Runnable {
 
-	/**
-	 * Variables and Settings
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	public static final int WIDTH = 1024, HEIGHT = WIDTH / 12 * 9;
+	
 	private Thread thread;
 	private boolean running = false;
 
 	private String currentUser;
-	private loaddata ld;
-	private String activeFrame; 
-	
-	private query q;
+	private LoadDataSQL ld;
+	private QuerySQL q;
 	private MouseInput mouse;
 	private MouseMotion mouseMotion;
-	/**
-	 * Components
-	 * 
-	 */
-	private BufferedImage crossIcon;
+	
 
 	// todo: add something
 
-	ArrayList<Farm> Farms;
+	ArrayList<FarmClass> Farms;
 
-	public game(String currentUser, String username) {
+	public GameLoop(String currentUser, String username) {
 		this.currentUser = currentUser;
-		new window(WIDTH, HEIGHT, "Buuretram  -  " + currentUser, this);
+		new WindowObject(WIDTH, HEIGHT, "Buuretram  -  " + currentUser, this);
 	}
 
 	public synchronized void start() {
 		System.out.println("starting");
-		Farms = new ArrayList<Farm>();
+		Farms = new ArrayList<FarmClass>();
 		System.out.println("loading");
 		loaddata(currentUser);
-		CurrentInformationSingle.getInstance().View = true;
+		GLOBAL_VARIABLES.getInstance().View = true;
 		/**
 		 * Save Current User to Singleton File
 		 * */
-		CurrentInformationSingle.getInstance().currentUser = currentUser;
+		GLOBAL_VARIABLES.getInstance().currentUser = currentUser;
 		
 		thread = new Thread(this);
 		thread.start();
-		CurrentInformationSingle.getInstance().View = true;
+		GLOBAL_VARIABLES.getInstance().View = true;
 
-		
-		
-		/**
-		 * Variables and Settings
-		 */
 
 		running = true;
-		q = new query();
+		q = new QuerySQL();
 
-		/**
-		 * Components
-		 * 
-		 */
+	
 		try {
-			crossIcon = ImageIO.read(new File("media/images/iconCross.jpg"));
+			ImageIO.read(new File("media/images/iconCross.jpg"));
 		} catch (IOException e) {
 			System.out.println("FAILED TO LOAD crossIcon");
 
@@ -120,7 +103,7 @@ public class game extends Canvas implements Runnable {
 				delta--;
 			}
 			if (running)
-				if (CurrentInformationSingle.getInstance().View) {
+				if (GLOBAL_VARIABLES.getInstance().View) {
 					renderMenu();
 				}else {
 					renderFarm();
@@ -133,7 +116,7 @@ public class game extends Canvas implements Runnable {
 				timer += 1000;
 				System.out.println("FPS: " + frames);
 				loaddata(currentUser);
-				CurrentInformationSingle.getInstance().mouseCounter = 0;
+				GLOBAL_VARIABLES.getInstance().mouseCounter = 0;
 				frames = 0;
 			}
 		}
@@ -142,8 +125,7 @@ public class game extends Canvas implements Runnable {
 
 	private void tick() {
 		
-		if (!CurrentInformationSingle.getInstance().View) {
-			activeFrame = "FarmView";
+		if (!GLOBAL_VARIABLES.getInstance().View) {
 		}
 		
 
@@ -185,7 +167,7 @@ public class game extends Canvas implements Runnable {
 		int x = 20;
 		int y = 200;
 		Polygon p = new Polygon();
-		for (Farm farm : Farms) {
+		for (FarmClass farm : Farms) {
 			p.reset();
 			p.addPoint(x, y);
 			p.addPoint(x + 200, y);
@@ -232,7 +214,7 @@ public class game extends Canvas implements Runnable {
 	
 	private void loaddata(String currentUser2) {
 		// get all farms that belong to current user
-		ld = new loaddata();
+		ld = new LoadDataSQL();
 
 		Farms.clear();
 		
@@ -248,7 +230,7 @@ public class game extends Canvas implements Runnable {
 			
 			String[] insert = null;
 			insert = sx.split(";");
-			Farms.add(new Farm(Integer.parseInt(insert[0]), Integer.parseInt(insert[1]), insert[2]));
+			Farms.add(new FarmClass(Integer.parseInt(insert[0]), Integer.parseInt(insert[1]), insert[2]));
 		}
 	
 

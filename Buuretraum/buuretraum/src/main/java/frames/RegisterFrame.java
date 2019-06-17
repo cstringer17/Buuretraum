@@ -17,10 +17,10 @@ import javax.swing.border.EmptyBorder;
 import com.lambdaworks.crypto.SCryptUtil;
 
 import buuretraum.Information;
-import database.insert;
-import database.query;
+import database.InsertSQL;
+import database.QuerySQL;
 
-public class registerframe extends JFrame {
+public class RegisterFrame extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField username;
@@ -31,8 +31,8 @@ public class registerframe extends JFrame {
 	private JLabel lblEmail;
 	private JLabel lblPassword;
 	private JLabel lblRepeatPassword;
-	private query q;
-	private insert i;
+	private QuerySQL q;
+	private InsertSQL i;
 	private String s;
 	
 	private Information info;
@@ -44,7 +44,7 @@ public class registerframe extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public registerframe() {
+	public RegisterFrame() {
 		s="";
 		
 		info = new Information();

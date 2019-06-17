@@ -7,7 +7,7 @@ import java.util.TimeZone;
 
 
 
-public class insert {
+public class InsertSQL {
 
 	public String insertData(String q) {
 

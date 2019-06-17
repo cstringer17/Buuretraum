@@ -1,14 +1,14 @@
 package buuretraum;
 
-import frames.Sprite;
+import frames.SpriteObject;
 
-public class Farm extends Sprite{
+public class FarmClass extends SpriteObject{
 
 	private int idFarm;
 	private int Player_idPLayer;
 	private String name;
 	
-	public Farm(int idFarm, int Player_idPLayer, String name) {
+	public FarmClass(int idFarm, int Player_idPLayer, String name) {
 		// TODO Auto-generated constructor stub
 		this.idFarm = idFarm;
 		this.Player_idPLayer = Player_idPLayer;

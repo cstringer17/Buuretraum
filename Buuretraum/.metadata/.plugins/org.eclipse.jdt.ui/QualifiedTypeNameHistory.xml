@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="java.awt.Button"/>
 <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
@@ -10,6 +9,10 @@
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="database.insert"/>
 <fullyQualifiedTypeName name="database.query"/>
-<fullyQualifiedTypeName name="buuretraum.CurrentInformationSingle"/>
 <fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="frames.error"/>
+<fullyQualifiedTypeName name="database.loaddata"/>
+<fullyQualifiedTypeName name="frames.window"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="buuretraum.CurrentInformationSingle"/>
 </qualifiedTypeNameHistroy>

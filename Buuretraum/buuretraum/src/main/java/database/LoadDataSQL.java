@@ -1,8 +1,8 @@
 package database;
 
-public class loaddata {
+public class LoadDataSQL {
 
-	public loaddata() {
+	public LoadDataSQL() {
 
 	}
 
@@ -10,7 +10,7 @@ public class loaddata {
 
 		String s = "SELECT * from farm where Player_idPlayer='" + currentUser + "'";
 
-		String reply = query.queryDB(s);
+		String reply = QuerySQL.queryDB(s);
 
 		return reply;
 

@@ -1,6 +1,6 @@
 package testing;
 
-import database.query;
+import database.QuerySQL;
 
 public class testing {
 
@@ -12,7 +12,7 @@ public class testing {
 		// TODO Auto-generated method stub
 		
 		
-		query q = new query();
+		QuerySQL q = new QuerySQL();
 		
 		String s = "SELECT * from farm where Player_idPlayer='" + 3 + "'";
 		

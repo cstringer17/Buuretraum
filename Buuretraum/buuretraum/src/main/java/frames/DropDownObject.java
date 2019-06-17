@@ -7,15 +7,15 @@ import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 
 import buuretraum.Information;
-import database.query;
+import database.QuerySQL;
 
-public class DropDown {
+public class DropDownObject {
 	
 	public Information info;
 	public JPopupMenu menu;
 	public int farmNumber;
 
-	public DropDown(final int farmNumber) {
+	public DropDownObject(final int farmNumber) {
 		this.farmNumber = farmNumber;
 		menu = new JPopupMenu();
 		info = new Information();
@@ -29,7 +29,7 @@ public class DropDown {
 			
 			public void actionPerformed(ActionEvent e) {
 				
-				query q = new query();
+				QuerySQL q = new QuerySQL();
 				q.removeFarm(farmNumber);
 				
 			}

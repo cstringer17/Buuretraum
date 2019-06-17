@@ -3,8 +3,8 @@ package frames;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
-import buuretraum.CurrentInformationSingle;
-import database.insert;
+import buuretraum.GLOBAL_VARIABLES;
+import database.InsertSQL;
 
 import javax.swing.JLabel;
 import java.awt.Font;
@@ -13,17 +13,17 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 
-public class AddFarm {
+public class AddFarmFrame {
 
 	private JFrame frame;
 	private JTextField textField;
-	private insert i;
+	private InsertSQL i;
 
 	
 	/**
 	 * Create the application.
 	 */
-	public AddFarm() {
+	public AddFarmFrame() {
 		initialize();
 	}
 
@@ -31,7 +31,7 @@ public class AddFarm {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		i = new insert();
+		i = new InsertSQL();
 		
 		frame = new JFrame();
 		frame.setBounds(100, 100, 340, 168);
@@ -57,7 +57,7 @@ public class AddFarm {
 			
 			public void actionPerformed(ActionEvent e) {
 				frame.setVisible(false);
-				i.addFarm(CurrentInformationSingle.getInstance().currentUser, textField.getText());
+				i.addFarm(GLOBAL_VARIABLES.getInstance().currentUser, textField.getText());
 			}
 		});
 		

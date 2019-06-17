@@ -1,12 +1,12 @@
 package frames;
 
-public class Sprite {
+public class SpriteObject {
 
 	private int x;
 	private int y;
 	private String name;
 	
-	public Sprite() {
+	public SpriteObject() {
 		
 	}
 

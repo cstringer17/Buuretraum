@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextPane;
 import javax.swing.border.EmptyBorder;
 
-public class error extends JFrame {
+public class DisplayError extends JFrame {
 
 	private JPanel contentPane;
 
@@ -17,7 +17,7 @@ public class error extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public error(String error) {
+	public DisplayError(String error) {
 		
 		setBounds(100, 100, 450, 300);
 		

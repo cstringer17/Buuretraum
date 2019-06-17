@@ -5,14 +5,14 @@ import java.awt.Dimension;
 
 import javax.swing.JFrame;
 
-import buuretraum.CurrentInformationSingle;
-import buuretraum.game;
+import buuretraum.GLOBAL_VARIABLES;
+import buuretraum.GameLoop;
 
-public class window extends Canvas{
+public class WindowObject extends Canvas{
 	
 
 
-	public window(int width, int height, String title, game game) {
+	public WindowObject(int width, int height, String title, GameLoop game) {
 		
 		JFrame frame = new JFrame(title);
 		

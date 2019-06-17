@@ -12,29 +12,29 @@ import javax.swing.JTextField;
 import com.lambdaworks.crypto.SCryptUtil;
 
 import buuretraum.Information;
-import buuretraum.game;
-import buuretraum.password;
-import database.insert;
-import database.query;
+import buuretraum.GameLoop;
+import buuretraum.PasswordHasher;
+import database.InsertSQL;
+import database.QuerySQL;
 
-public class menuframe extends JFrame {
+public class MenuFrame extends JFrame {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 	private JTextField usernameField;
 	private JTextField passwordField;
-	private query q;
-	private password h;
-	private insert i;
-	private error r;
+	private QuerySQL q;
+	private PasswordHasher h;
+	private InsertSQL i;
+	private DisplayError r;
 	private Information info;
 	String loginq;
 
 	/**
 	 * Create the panel.
 	 */
-	public menuframe() {
+	public MenuFrame() {
 		getContentPane().setLayout(null);
 		setDefaultCloseOperation(this.EXIT_ON_CLOSE);
 
@@ -43,8 +43,8 @@ public class menuframe extends JFrame {
 
 		info = new Information();
 
-		q = new query();
-		i = new insert();
+		q = new QuerySQL();
+		i = new InsertSQL();
 
 		JLabel lblNewLabel = new JLabel("D' Buuretraum");
 		lblNewLabel.setFont(new Font("Bahnschrift", Font.BOLD | Font.ITALIC, 28));
@@ -61,7 +61,7 @@ public class menuframe extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 
-				registerframe f = new registerframe();
+				RegisterFrame f = new RegisterFrame();
 
 			}
 		});

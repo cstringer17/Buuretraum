@@ -1,11 +1,11 @@
 package buuretraum;
 
-import frames.error;
-import frames.menuframe;
+import frames.DisplayError;
+import frames.MenuFrame;
 
 public class Starter {
 	
-	private error r;
+	private DisplayError r;
 
 	public Starter() {
 		// TODO Auto-generated constructor stub
@@ -14,9 +14,9 @@ public class Starter {
 	public static void main(String[] args) {
 		
 		try {
-			 menuframe m = new menuframe();
+			 MenuFrame m = new MenuFrame();
 		} catch (Exception e) {
-			new error(e.getMessage());
+			new DisplayError(e.getMessage());
 		}
 		
 	}}

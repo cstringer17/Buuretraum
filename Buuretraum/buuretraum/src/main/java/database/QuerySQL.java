@@ -9,11 +9,11 @@ import java.util.TimeZone;
 
 import com.lambdaworks.crypto.SCryptUtil;
 
-import buuretraum.CurrentInformationSingle;
-import buuretraum.game;
-import frames.error;
+import buuretraum.GLOBAL_VARIABLES;
+import buuretraum.GameLoop;
+import frames.DisplayError;
 
-public class query {
+public class QuerySQL {
 
 	static ResultSet rs;
 	static String r;
@@ -46,7 +46,7 @@ public class query {
 			con.close();
 		} catch (Exception e) {
 			System.out.println(e);
-			error er = new error("Connection Failed");
+			DisplayError er = new DisplayError("Connection Failed");
 		}
 
 		return r;
@@ -56,20 +56,20 @@ public class query {
 	public static String login(String usernameField, String passwordField) {
 
 		String loginq = "select * from player WHERE username='" + usernameField + "'";
-		query q = new query();
+		QuerySQL q = new QuerySQL();
 		String[] temp = q.queryDB(loginq).split(";");
 		String passwordh = removeLastChar(temp[3]);
 
 		try {
 			if (SCryptUtil.check(passwordField, passwordh)) {
 				System.out.println("login success");
-				new game(temp[0], temp[1]);
+				new GameLoop(temp[0], temp[1]);
 
 			}
 
 		} catch (IllegalArgumentException e2) {
 			// invalid hash..
-			new error(e2.getMessage());
+			new DisplayError(e2.getMessage());
 		}
 
 		return "";
@@ -83,22 +83,22 @@ public class query {
 	public void addFarm(String currentUser) {
 		// check if 6 farms are already there
 
-		insert i = new insert();
+		InsertSQL i = new InsertSQL();
 
 		String query = "select * from farm WHERE Player_idPLayer=" + currentUser + ";";
 		String[] farmtest = queryDB(query).split("#");
 		if (farmtest.length >= 6) {
-			error r = new error("Max Farms Reached");
+			DisplayError r = new DisplayError("Max Farms Reached");
 		} else {
-			frames.AddFarm ei = new frames.AddFarm();
+			frames.AddFarmFrame ei = new frames.AddFarmFrame();
 		}
 
 	}
 
 	public void removeFarm(int farmnumber) {
-		String query = "select * from farm WHERE Player_idPLayer=" + CurrentInformationSingle.getInstance().currentUser + ";";
+		String query = "select * from farm WHERE Player_idPLayer=" + GLOBAL_VARIABLES.getInstance().currentUser + ";";
 		String[] farmtest = queryDB(query).split("#");
-		insert i = new insert();
+		InsertSQL i = new InsertSQL();
 		i.removeFarm(farmtest[farmnumber-1]);
 		
 	}

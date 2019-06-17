@@ -5,15 +5,15 @@ import java.awt.event.MouseListener;
 
 import javax.swing.SwingUtilities;
 
-import database.loaddata;
-import database.query;
-import frames.DropDown;
+import database.LoadDataSQL;
+import database.QuerySQL;
+import frames.DropDownObject;
 
 public class MouseInput implements MouseListener {
 
-	DropDown popup;
-	query q = new query();
-	loaddata ld = new loaddata();
+	DropDownObject popup;
+	QuerySQL q = new QuerySQL();
+	LoadDataSQL ld = new LoadDataSQL();
 
 	public MouseInput() {
 		// TODO Auto-generated constructor stub
@@ -40,7 +40,7 @@ public class MouseInput implements MouseListener {
 		System.out.println("Mouse Pressed");
 		int mx = e.getX();
 		int my = e.getY();
-		if (CurrentInformationSingle.getInstance().View) {
+		if (GLOBAL_VARIABLES.getInstance().View) {
 			mousedPressedMenuFrame(mx, my, e);
 		}else {
 			
@@ -51,7 +51,7 @@ public class MouseInput implements MouseListener {
 
 	private void mousedPressedMenuFrame(int mx, int my, MouseEvent e) {
 
-		CurrentInformationSingle.getInstance().mouseCounter += 1;
+		GLOBAL_VARIABLES.getInstance().mouseCounter += 1;
 
 		/**
 		 * FARMS
@@ -90,15 +90,15 @@ public class MouseInput implements MouseListener {
 
 		// NEW FARM BUTTON g.fillRect(800, 37, 200, 50);
 		if (mx > 800 && mx < 1000 && my > 37 && my < 37 + 50) {
-			q.addFarm(CurrentInformationSingle.getInstance().currentUser);
+			q.addFarm(GLOBAL_VARIABLES.getInstance().currentUser);
 		}
 
 	}
 
 	private void doubleClickMenuFrame(int farm) {
 
-		if (CurrentInformationSingle.getInstance().mouseCounter == 2) {
-			CurrentInformationSingle.getInstance().mouseCounter = 0;
+		if (GLOBAL_VARIABLES.getInstance().mouseCounter == 2) {
+			GLOBAL_VARIABLES.getInstance().mouseCounter = 0;
 			openFarmMenuFrame(farm);
 		}
 
@@ -106,7 +106,7 @@ public class MouseInput implements MouseListener {
 
 	private void openFarmMenuFrame(int farm) {
 		System.out.println(farm);
-		String holder = ld.load(CurrentInformationSingle.getInstance().currentUser);
+		String holder = ld.load(GLOBAL_VARIABLES.getInstance().currentUser);
 
 		String[] Farm = holder.split("#");
 
@@ -116,7 +116,7 @@ public class MouseInput implements MouseListener {
 			insert = sx.split(";");
 			System.out.println("Farms:   " + Farm.length);
 			if (Farm.length >= farm) {
-				CurrentInformationSingle.getInstance().View = false;
+				GLOBAL_VARIABLES.getInstance().View = false;
 				System.out.println("Attempting to open farm: " + Farm[farm - 1]);
 			}
 
@@ -134,7 +134,7 @@ public class MouseInput implements MouseListener {
 					|| mx > 530 && mx < 530 + 200 && my > 450 && my < 650
 
 			) {
-				popup = new DropDown(farmnumber);
+				popup = new DropDownObject(farmnumber);
 				popup.menu.show(e.getComponent(), e.getX(), e.getY());
 				{
 				}

@@ -6,9 +6,9 @@ import org.mindrot.jbcrypt.BCrypt;
 
 import com.lambdaworks.crypto.SCryptUtil;
 
-public class password {
+public class PasswordHasher {
 
-	public password() throws NoSuchAlgorithmException {
+	public PasswordHasher() throws NoSuchAlgorithmException {
 
 	}
 
