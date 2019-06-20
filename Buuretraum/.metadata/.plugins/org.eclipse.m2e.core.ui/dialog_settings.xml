@@ -68,6 +68,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="H:\dev\Buuretraum\Buuretraum\buuretraum"/>
 			<item value="H:\dev\Buuretraum\Buuretraum\Buuretraum\buuretraum"/>
 		</list>
 		<list key="projectNameTemplate">

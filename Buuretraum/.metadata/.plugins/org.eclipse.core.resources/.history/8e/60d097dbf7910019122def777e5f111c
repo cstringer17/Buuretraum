@@ -1,0 +1,9 @@
+package buuretraum;
+
+public class KeyInputs {
+
+	public KeyInputs() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

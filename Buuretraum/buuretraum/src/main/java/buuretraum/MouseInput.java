@@ -42,13 +42,20 @@ public class MouseInput implements MouseListener {
 		int my = e.getY();
 		if (GLOBAL_VARIABLES.getInstance().View) {
 			mousedPressedMenuFrame(mx, my, e);
-		}else {
-			
-		}
+		}else if (!GLOBAL_VARIABLES.getInstance().View) {
+			mousePressedFarm(mx, my, e);
+		} 
 		
 
 	}
 
+	private void mousePressedFarm(int mx, int my, MouseEvent e) {
+		// NEW FARM BUTTON g.fillRect(800, 37, 200, 50);
+				if (mx > 800 && mx < 1000 && my > 37 && my < 37 + 50) {
+					q.addFarm(GLOBAL_VARIABLES.getInstance().currentUser);
+				}
+	}
+	
 	private void mousedPressedMenuFrame(int mx, int my, MouseEvent e) {
 
 		GLOBAL_VARIABLES.getInstance().mouseCounter += 1;

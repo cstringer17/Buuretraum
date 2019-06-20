@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Polygon;
+import java.awt.event.KeyListener;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -70,9 +71,10 @@ public class GameLoop extends Canvas implements Runnable {
 		}
 		mouse = new MouseInput();
 		mouseMotion = new MouseMotion();
+		KeyInputs key = new KeyInputs();
 		this.addMouseMotionListener(mouseMotion);
 		this.addMouseListener(mouse);
-
+		this.addKeyListener(key);
 	}
 
 	public synchronized void stop() {
@@ -160,7 +162,7 @@ public class GameLoop extends Canvas implements Runnable {
 		g.drawString("New Farm", 800 + 25, 37 + 15);
 
 		// top right exit
-		// g.drawImage(crossIcon, 1000, 0, this);
+		
 
 		// paint farms
 		int counter = 0;

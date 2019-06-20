@@ -1778,3 +1778,41 @@ org.eclipse.core.runtime.CoreException: Launch configuration starter references 
 2019-06-17 20:36:38,328 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-06-17 20:36:38,329 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-06-17 20:36:38,334 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-17 20:44:28,281 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-17 20:44:50,783 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dev:buuretraum:0.0.1-SNAPSHOT @ H:\dev\Buuretraum\Buuretraum\buuretraum\pom.xml.
+2019-06-17 20:44:51,138 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /buuretraum/src/main/java
+2019-06-17 20:44:51,138 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /buuretraum/src/test/java
+2019-06-17 20:44:51,186 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2019-06-17 20:44:51,959 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-17 20:44:51,965 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-17 20:44:51,968 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-17 20:44:51,973 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 20:08:38,114 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-06-18 20:33:39,942 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:33:39,948 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 20:33:39,950 [Worker-23: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:33:39,954 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 20:35:34,158 [Worker-24: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:35:34,164 [Worker-24: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 20:35:34,165 [Worker-24: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:35:34,170 [Worker-24: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 20:35:52,476 [Worker-21: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:35:52,481 [Worker-21: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 20:35:52,482 [Worker-21: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:35:52,487 [Worker-21: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 20:38:26,799 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:38:26,804 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 20:38:26,805 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:38:26,810 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 20:38:57,998 [Worker-24: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:38:58,002 [Worker-24: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 20:38:58,003 [Worker-24: Launching starter] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 20:38:58,008 [Worker-24: Launching starter] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 21:42:49,553 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 21:42:49,557 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 21:42:49,558 [Worker-46: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 21:42:49,563 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
+2019-06-18 21:51:23,179 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 21:51:23,185 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\main\resources
+2019-06-18 21:51:23,186 [ModalContext] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-18 21:51:23,199 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\dev\Buuretraum\Buuretraum\buuretraum\src\test\resources
