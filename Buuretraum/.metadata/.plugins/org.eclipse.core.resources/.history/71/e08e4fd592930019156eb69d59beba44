@@ -7,7 +7,6 @@ import javax.swing.SwingUtilities;
 
 import database.LoadDataSQL;
 import database.QuerySQL;
-import frames.ControlsMenu;
 import frames.DropDownObject;
 
 public class MouseInput implements MouseListener {
@@ -108,7 +107,6 @@ public class MouseInput implements MouseListener {
 		if (GLOBAL_VARIABLES.getInstance().mouseCounter == 2) {
 			GLOBAL_VARIABLES.getInstance().mouseCounter = 0;
 			openFarmMenuFrame(farm);
-			ControlsMenu cm = new ControlsMenu();
 		}
 
 	}

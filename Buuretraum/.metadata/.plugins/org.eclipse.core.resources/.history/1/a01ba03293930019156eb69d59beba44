@@ -24,7 +24,7 @@ public class WindowObject extends Canvas{
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(true);
-		frame.setLocation(700, 60);
+		frame.setLocation(400, 60);
 		frame.add(game);
 		frame.setVisible(true);
 		

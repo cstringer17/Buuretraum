@@ -1,7 +1,6 @@
 package testing;
 
 import database.QuerySQL;
-import frames.ControlsMenu;
 
 public class testing {
 
@@ -13,7 +12,16 @@ public class testing {
 		// TODO Auto-generated method stub
 		
 		
-		ControlsMenu cm = new ControlsMenu();
+		QuerySQL q = new QuerySQL();
+		
+		String s = "SELECT * from farm where Player_idPlayer='" + 3 + "'";
+		
+
+		String reply = q.queryDB(s);
+		
+		
+		System.out.println(reply);
+
 	}
 
 }
