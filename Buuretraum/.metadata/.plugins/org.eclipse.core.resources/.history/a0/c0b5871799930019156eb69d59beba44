@@ -37,10 +37,6 @@ public class MenuFrame extends JFrame {
 	private DisplayError r;
 	private Information info;
 	String loginq;
-	/**
-	 * @wbp.nonvisual location=201,69
-	 */
-	private final JLabel LOGIN = new JLabel("New label");
 
 	/**
 	 * Create the panel.
@@ -63,7 +59,7 @@ public class MenuFrame extends JFrame {
 		getContentPane().add(lblNewLabel);
 
 		try {
-			setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("Artwork/menuFrameBackground.jpg")))));
+			setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("/Artwork/menuFrameBackground.jpg")))));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

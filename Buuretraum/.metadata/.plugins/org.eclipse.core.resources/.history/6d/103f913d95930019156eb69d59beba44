@@ -34,7 +34,7 @@ public class GameLoop extends Canvas implements Runnable {
 	private MouseInput mouse;
 	private MouseMotion mouseMotion;
 
-	Image image;
+	
 
 	// todo: add something
 
@@ -47,7 +47,7 @@ public class GameLoop extends Canvas implements Runnable {
 
 	public synchronized void start() {
 
-		image = Toolkit.getDefaultToolkit().getImage("Artwork/originalFarmHouse.jpg");
+		Image image = Toolkit.getDefaultToolkit().getImage("/buuretraum/Artwork/originalFarmHouse.jpg");
 
 		System.out.println("starting");
 		Farms = new ArrayList<FarmClass>();

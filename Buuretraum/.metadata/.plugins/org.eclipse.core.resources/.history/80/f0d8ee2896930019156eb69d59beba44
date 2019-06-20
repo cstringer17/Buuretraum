@@ -63,7 +63,7 @@ public class AddFarmFrame {
 							}else {
 								holder = textField.getText();
 							}
-				i.addFarm(GLOBAL_VARIABLES.getInstance().currentUser, holder);
+				i.addFarm(GLOBAL_VARIABLES.getInstance().currentUser, textField.getText());
 			}
 		});
 		

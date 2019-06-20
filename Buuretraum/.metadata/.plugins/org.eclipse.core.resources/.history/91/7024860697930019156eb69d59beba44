@@ -2,17 +2,10 @@ package frames;
 
 import javax.swing.JLabel;
 import java.awt.Font;
-import java.awt.Image;
-import java.awt.Toolkit;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
 import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
 
@@ -37,10 +30,6 @@ public class MenuFrame extends JFrame {
 	private DisplayError r;
 	private Information info;
 	String loginq;
-	/**
-	 * @wbp.nonvisual location=201,69
-	 */
-	private final JLabel LOGIN = new JLabel("New label");
 
 	/**
 	 * Create the panel.
@@ -61,12 +50,6 @@ public class MenuFrame extends JFrame {
 		lblNewLabel.setFont(new Font("Bahnschrift", Font.BOLD | Font.ITALIC, 28));
 		lblNewLabel.setBounds(111, 11, 213, 58);
 		getContentPane().add(lblNewLabel);
-
-		try {
-			setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("Artwork/menuFrameBackground.jpg")))));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 
 		/**
 		 * 
@@ -97,9 +80,8 @@ public class MenuFrame extends JFrame {
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				if (info.login(usernameField.getText(), passwordField.getText())) {
-					setVisible(false);
-				}
+				info.login(usernameField.getText(), passwordField.getText());
+				setVisible(false);
 
 			}
 		});

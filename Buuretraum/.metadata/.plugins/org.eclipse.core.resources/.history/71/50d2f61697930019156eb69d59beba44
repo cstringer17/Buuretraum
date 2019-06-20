@@ -72,7 +72,7 @@ public class QuerySQL {
 			new DisplayError(e2.getMessage());
 			return false;
 		}
-		return false;
+
 		
 
 	}

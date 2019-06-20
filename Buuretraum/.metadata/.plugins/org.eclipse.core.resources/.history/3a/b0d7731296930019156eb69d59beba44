@@ -19,6 +19,7 @@ public class AddFarmFrame {
 	private JTextField textField;
 	private InsertSQL i;
 
+	
 	/**
 	 * Create the application.
 	 */
@@ -56,14 +57,7 @@ public class AddFarmFrame {
 			
 			public void actionPerformed(ActionEvent e) {
 				frame.setVisible(false);
-				String holder = "";
-				if (textField.getText().equals("")) {
-					holder = "New Farm";
-					
-							}else {
-								holder = textField.getText();
-							}
-				i.addFarm(GLOBAL_VARIABLES.getInstance().currentUser, holder);
+				i.addFarm(GLOBAL_VARIABLES.getInstance().currentUser, textField.getText());
 			}
 		});
 		

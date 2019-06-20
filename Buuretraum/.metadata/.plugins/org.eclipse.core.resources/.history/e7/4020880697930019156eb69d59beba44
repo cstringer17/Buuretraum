@@ -24,13 +24,8 @@ public class Information {
 
 
 	
-	public boolean login(String text, String text2) {
-		
-		if (QuerySQL.login(text, text2)) {
-			return true;
-		}else{
-			return false;
-		}
+	public void  login(String text, String text2) {
+		QuerySQL.login(text, text2);
 		
 	}
 

@@ -11,11 +11,6 @@ import javax.swing.JScrollPane;
 
 public class ControlsMenu extends JFrame {
 	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 6358402924548378872L;
-
-	/**
 	 * Create the frame.
 	 */
 	public ControlsMenu() {
