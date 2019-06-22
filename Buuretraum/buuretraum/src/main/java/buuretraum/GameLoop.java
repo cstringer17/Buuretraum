@@ -49,9 +49,8 @@ public class GameLoop extends Canvas implements Runnable {
 
 		image = Toolkit.getDefaultToolkit().getImage("Artwork/originalFarmHouse.jpg");
 
-		System.out.println("starting");
 		Farms = new ArrayList<FarmClass>();
-		System.out.println("loading");
+
 		loaddata(currentUser);
 		GLOBAL_VARIABLES.getInstance().View = true;
 		/**
@@ -66,12 +65,6 @@ public class GameLoop extends Canvas implements Runnable {
 		running = true;
 		q = new QuerySQL();
 
-		try {
-			ImageIO.read(new File("media/images/iconCross.jpg"));
-		} catch (IOException e) {
-			System.out.println("FAILED TO LOAD crossIcon");
-
-		}
 		mouse = new MouseInput();
 		mouseMotion = new MouseMotion();
 		KeyInputs key = new KeyInputs();
@@ -110,6 +103,7 @@ public class GameLoop extends Canvas implements Runnable {
 			if (running)
 				if (GLOBAL_VARIABLES.getInstance().View) {
 					renderMenu();
+
 				} else {
 					renderFarm();
 				}
@@ -119,7 +113,14 @@ public class GameLoop extends Canvas implements Runnable {
 			if (System.currentTimeMillis() - timer > 1000) {
 				timer += 1000;
 				System.out.println("FPS: " + frames);
-				loaddata(currentUser);
+
+				if (GLOBAL_VARIABLES.getInstance().View) {
+					loaddata(currentUser);
+
+				} else {
+					loadfarms(GLOBAL_VARIABLES.getInstance().farm);
+				}
+
 				GLOBAL_VARIABLES.getInstance().mouseCounter = 0;
 				frames = 0;
 			}
@@ -169,16 +170,10 @@ public class GameLoop extends Canvas implements Runnable {
 		int y = 200;
 		Polygon p = new Polygon();
 		for (FarmClass farm : Farms) {
-			// p.reset();
-//			p.addPoint(x, y);
-//			p.addPoint(x + 200, y);
-//			p.addPoint(x + 200, y + 200);
-//			p.addPoint(x, y + 200);
 
 			g.drawImage(image, x, y, null);
 
 			g.setColor(Color.decode("#9ac68d"));
-//			g.fillPolygon(p);
 
 			g.setColor(Color.black);
 
@@ -208,6 +203,9 @@ public class GameLoop extends Canvas implements Runnable {
 		g.setColor(Color.white);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
 
+		g.setColor(Color.RED);
+		g.fillRect(30, 900, 40, 40);
+
 		g.dispose();
 		bs.show();
 
@@ -232,6 +230,20 @@ public class GameLoop extends Canvas implements Runnable {
 			String[] insert = null;
 			insert = sx.split(";");
 			Farms.add(new FarmClass(Integer.parseInt(insert[0]), Integer.parseInt(insert[1]), insert[2]));
+		}
+
+	}
+
+	private void loadfarms(String farm) {
+		ld = new LoadDataSQL();
+		/**
+		 * DATA: (idPLantPLot,IDFARM, PLANTID)
+		 * */
+		String data = ld.loadFarm(GLOBAL_VARIABLES.getInstance().farm);
+		if (data.equals("")) {
+			return;
+		}else {
+			
 		}
 
 	}

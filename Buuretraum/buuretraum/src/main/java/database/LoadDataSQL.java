@@ -16,4 +16,19 @@ public class LoadDataSQL {
 
 	}
 
+	public String loadFarm(String farm) {
+
+		String[] data = farm.split(";");
+		
+		String s  = "SELECT * from plantplot WHERE Farm_idFarm=" + data[0];
+		
+		
+		
+		String reply = QuerySQL.queryDB(s);
+		
+		System.out.println("PLANTPLOTS: " + reply );
+		
+		return s;
+	}
+
 }

@@ -1,0 +1,19 @@
+package buuretraum;
+
+import java.awt.Graphics;
+
+public class DisplayFarm {
+
+	public DisplayFarm() {
+		
+	}
+	
+	public void generateFarmView(Graphics g) {
+		
+		
+		
+	}
+	
+	
+
+}

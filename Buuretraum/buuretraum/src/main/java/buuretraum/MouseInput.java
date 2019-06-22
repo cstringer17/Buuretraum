@@ -107,6 +107,7 @@ public class MouseInput implements MouseListener {
 
 		if (GLOBAL_VARIABLES.getInstance().mouseCounter == 2) {
 			GLOBAL_VARIABLES.getInstance().mouseCounter = 0;
+			
 			openFarmMenuFrame(farm);
 			ControlsMenu cm = new ControlsMenu();
 		}
@@ -127,6 +128,7 @@ public class MouseInput implements MouseListener {
 			if (Farm.length >= farm) {
 				GLOBAL_VARIABLES.getInstance().View = false;
 				System.out.println("Attempting to open farm: " + Farm[farm - 1]);
+				GLOBAL_VARIABLES.getInstance().farm = Farm[farm-1];
 			}
 
 		}

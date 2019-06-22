@@ -1,0 +1,22 @@
+package buuretraum;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public class DisplayFarm {
+
+	public DisplayFarm() {
+		
+	}
+	
+	public Graphics generateFarmView(Graphics g) {
+		
+		g.setColor(Color.red);
+		g.fillRect(0, 0, 10, 10);
+		
+		return g;
+	}
+	
+	
+
+}

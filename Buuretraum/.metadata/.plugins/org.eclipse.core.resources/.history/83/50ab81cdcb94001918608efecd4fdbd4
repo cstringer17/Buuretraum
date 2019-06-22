@@ -1,0 +1,9 @@
+package buuretraum;
+
+public class DisplayFarm {
+
+	public DisplayFarm() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

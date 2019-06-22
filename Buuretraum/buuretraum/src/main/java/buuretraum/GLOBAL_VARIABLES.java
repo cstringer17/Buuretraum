@@ -6,6 +6,7 @@ public class GLOBAL_VARIABLES {
 	
 	public String currentUser;
 	public int mouseCounter;
+	public String farm;
 	public boolean View ;
 
 	private GLOBAL_VARIABLES() {

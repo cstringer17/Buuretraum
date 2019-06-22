@@ -1,0 +1,9 @@
+package Sprites;
+
+public class FarmPlot {
+
+	public FarmPlot() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

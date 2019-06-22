@@ -1,0 +1,28 @@
+package database;
+
+public class LoadDataSQL {
+
+	public LoadDataSQL() {
+
+	}
+
+	public String load(String currentUser) {
+
+		String s = "SELECT * from farm where Player_idPlayer='" + currentUser + "'";
+
+		String reply = QuerySQL.queryDB(s);
+
+		return reply;
+
+	}
+
+	public String loadFarm(String currentUser, String farm) {
+
+		System.out.println(farm);
+		
+	//	String s  = "SELECT * from plantplot WHERE Farm_idFarm="
+		
+		return"";
+	}
+
+}
