@@ -2,7 +2,7 @@ package Sprites;
 
 public class FarmPlot {
 
-	public String type
+	public String type;
 	
 	
 	public FarmPlot() {
