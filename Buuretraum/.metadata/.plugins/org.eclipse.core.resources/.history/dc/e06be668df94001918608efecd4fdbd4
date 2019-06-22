@@ -1,0 +1,30 @@
+package testing;
+
+import buuretraum.GLOBAL_VARIABLES;
+import database.LoadDataSQL;
+
+public class DisplayAllFarmDataTest {
+	
+	LoadDataSQL ld;
+
+	public DisplayAllFarmDataTest() {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	void loadfarms() {
+		ld = new LoadDataSQL();
+		
+		String data = ld.loadFarm(GLOBAL_VARIABLES.getInstance().farm);
+		String[] stepone = data.split("");
+		
+		if (data.equals("")) {
+			return;
+		}else {
+			for (String string : stepone) {
+				System.out.println(string);
+			}
+		}
+
+	}
+}

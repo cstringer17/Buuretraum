@@ -15,7 +15,7 @@ public class testing {
 		
 		
 		DisplayAllFarmDataTest object = new DisplayAllFarmDataTest();
-		GLOBAL_VARIABLES.getInstance().farm = "18";
+		GLOBAL_VARIABLES.getInstance().farm = "1";
 		object.loadfarms();
 	}
 

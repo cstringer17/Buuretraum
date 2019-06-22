@@ -20,7 +20,7 @@ public class LoadDataSQL {
 
 		String[] data = farm.split(";");
 		
-		String s  = "SELECT * from plantplot WHERE Farm_idFarm=" + data[0] + ";";
+		String s  = "SELECT * from plantplot WHERE Farm_idFarm=" + data[0];
 		
 		
 		
@@ -28,17 +28,7 @@ public class LoadDataSQL {
 		
 		System.out.println("PLANTPLOTS: " + reply );
 		
-		return reply;
-	}
-
-	public String loadPlant(String plantID) {
-
-		String s = "SELECT * from plant where idPlant=" + plantID + ";";
-		
-		String reply =  QuerySQL.queryDB(s);
-		
-		return reply;
-		
+		return s;
 	}
 
 }

@@ -1,6 +1,5 @@
 package testing;
 
-import buuretraum.GLOBAL_VARIABLES;
 import database.QuerySQL;
 import frames.ControlsMenu;
 
@@ -15,7 +14,6 @@ public class testing {
 		
 		
 		DisplayAllFarmDataTest object = new DisplayAllFarmDataTest();
-		GLOBAL_VARIABLES.getInstance().farm = "18";
 		object.loadfarms();
 	}
 
