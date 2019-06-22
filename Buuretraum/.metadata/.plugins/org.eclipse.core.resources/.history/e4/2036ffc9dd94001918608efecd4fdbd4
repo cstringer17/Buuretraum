@@ -1,6 +1,5 @@
 package testing;
 
-import buuretraum.GLOBAL_VARIABLES;
 import database.QuerySQL;
 import frames.ControlsMenu;
 
@@ -14,9 +13,7 @@ public class testing {
 		// TODO Auto-generated method stub
 		
 		
-		DisplayAllFarmDataTest object = new DisplayAllFarmDataTest();
-		GLOBAL_VARIABLES.getInstance().farm = "18";
-		object.loadfarms();
+		ControlsMenu cm = new ControlsMenu();
 	}
 
 }

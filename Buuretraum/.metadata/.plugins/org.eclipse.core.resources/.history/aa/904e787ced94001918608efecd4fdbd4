@@ -33,7 +33,7 @@ public class LoadDataSQL {
 
 	public String loadPlant(String plantID) {
 
-		String s = "SELECT * from plant where idPlant=" + plantID + ";";
+		String s = "SELECT * from plant where Plant_idPlant=" + plantID + ";";
 		
 		String reply =  QuerySQL.queryDB(s);
 		
