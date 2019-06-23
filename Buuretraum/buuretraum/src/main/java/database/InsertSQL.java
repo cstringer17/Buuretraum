@@ -14,7 +14,7 @@ public class InsertSQL {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url = "jdbc:mysql://1337.ex0dus.ch:3306/buuretraum?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=" + TimeZone.getDefault().getID();
-			Connection con = DriverManager.getConnection(url, "farmer", "password_400");
+			Connection con = DriverManager.getConnection(url, "", "");
 
 			Statement stmt = con.createStatement();
 
