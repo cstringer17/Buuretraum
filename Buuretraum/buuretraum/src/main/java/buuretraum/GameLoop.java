@@ -33,8 +33,11 @@ public class GameLoop extends Canvas implements Runnable {
 	private QuerySQL q;
 	private MouseInput mouse;
 	private MouseMotion mouseMotion;
+	private ArrayList<String> plots;
 
 	Image image;
+	Image test;
+	Image background;
 
 	// todo: add something
 
@@ -48,8 +51,10 @@ public class GameLoop extends Canvas implements Runnable {
 	public synchronized void start() {
 
 		image = Toolkit.getDefaultToolkit().getImage("Artwork/originalFarmHouse.jpg");
-
+		test = Toolkit.getDefaultToolkit().getImage("Artwork/barley3.png");
+		background = Toolkit.getDefaultToolkit().getImage("Artwork/backgroundfarm.png");
 		Farms = new ArrayList<FarmClass>();
+		 plots = new ArrayList<String>();
 
 		loaddata(currentUser);
 		GLOBAL_VARIABLES.getInstance().View = true;
@@ -199,13 +204,44 @@ public class GameLoop extends Canvas implements Runnable {
 			return;
 		}
 
+		
+		
 		Graphics g = bs.getDrawGraphics();
+		
+		
+		
 		g.setColor(Color.white);
 		g.fillRect(0, 0, WIDTH, HEIGHT);
-
+		g.drawImage(background, 0, 0, null);
 		g.setColor(Color.RED);
 		g.fillRect(30, 900, 40, 40);
 
+		int counter = 0;
+		int x = 260;
+		int y = 20;
+		
+		for (String plot : plots) {
+
+			System.out.println(plot);
+			String[] info = plot.split(";");
+			
+			g.drawImage(test, x, y, null);
+
+			g.setColor(Color.decode("#9ac68d"));
+
+			g.setColor(Color.black);
+
+			
+
+			x += 125;
+			counter++;
+			if (counter == 4) {
+				x = 260;
+				y += 125;
+				counter = 0;
+			}
+		}
+		
 		g.dispose();
 		bs.show();
 
@@ -238,14 +274,49 @@ public class GameLoop extends Canvas implements Runnable {
 		ld = new LoadDataSQL();
 		/**
 		 * DATA: (idPLantPLot,IDFARM, PLANTID)
-		 * */
+		 */
 		String data = ld.loadFarm(GLOBAL_VARIABLES.getInstance().farm);
 		if (data.equals("")) {
 			return;
-		}else {
-			
+		} else {
+			// Split into Plots
+			String[] stepone = data.split("#");
+
+			//plots.clear();
+
+			if (data.equals("")) {
+				return;
+			} else {
+				// Create Arrays containing plot information and add it to array list
+				/**
+				 * 0:idPlantPlot 1:Farm_idFarm 2:Plant_idPlant
+				 */
+				for (String string : stepone) {
+					String[] holder = string.split(";");
+
+					String entryToAdd = "";
+					for (String strings : holder) {
+						entryToAdd += strings;
+						entryToAdd += ";";
+
+					}
+					entryToAdd += getPlantInfo(holder[2]);
+
+					plots.add(entryToAdd);
+					System.out.println(entryToAdd);
+				}
+
+			}
 		}
 
 	}
 
+	private String getPlantInfo(String plantID) {
+
+		ld = new LoadDataSQL();
+		String plantInfo = ld.loadPlant(plantID);
+
+		return plantInfo;
+
+	}
 }

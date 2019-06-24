@@ -21,7 +21,8 @@ public class DisplayAllFarmDataTest {
 		// Split into Plots
 		String[] stepone = data.split("#");
 
-		ArrayList<String[]> plots = new ArrayList<String[]>();
+		ArrayList<String> plots = new ArrayList<String>();
+		
 		if (data.equals("")) {
 			return;
 		} else {
@@ -39,11 +40,11 @@ public class DisplayAllFarmDataTest {
 
 				}
 				entryToAdd += getPlantInfo(holder[2]);
-				System.out.println(entryToAdd);
-				plots.add(holder);
+				
+				plots.add(entryToAdd);
 			}
 
-			// Add Plant Information
+			
 		}
 
 	}
