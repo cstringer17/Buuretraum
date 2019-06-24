@@ -2,12 +2,7 @@ package Sprites;
 
 public class Barley extends PlantFeatures { //Gerste
 
-	public Barley() {
-		super();
-	}
-	
-	public void growth() {
-		
-	}
-
+	public Barley(int growrate, String name, int value, int lifespan) {
+        super(growrate, name, value, lifespan);
+    }
 }

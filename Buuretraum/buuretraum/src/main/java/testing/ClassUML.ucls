@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="buuretraum.Starter" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/Starter.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="113" x="620" y="453"/>    
+    <position height="-1" width="-1" x="207" y="340"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="buuretraum.PasswordHasher" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/PasswordHasher.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="213" x="773" y="453"/>    
+    <position height="-1" width="-1" x="413" y="336"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="buuretraum.FarmClass" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/FarmClass.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="243" width="161" x="1230" y="844"/>    
+    <position height="-1" width="-1" x="1001" y="659"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="buuretraum.Information" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/Information.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="344" x="1026" y="453"/>    
+    <position height="-1" width="-1" x="753" y="333"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="buuretraum.MouseMotion" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/MouseMotion.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="189" x="1431" y="844"/>    
+    <position height="-1" width="-1" x="1345" y="669"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="buuretraum.MouseInput" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/MouseInput.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="297" width="307" x="1660" y="844"/>    
+    <position height="-1" width="-1" x="1697" y="795"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="buuretraum.GLOBAL_VARIABLES" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/GLOBAL_VARIABLES.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="200" x="1410" y="453"/>    
+    <position height="-1" width="-1" x="1494" y="426"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="buuretraum.GameLoop" project="buuretraum" 
     file="/buuretraum/src/main/java/buuretraum/GameLoop.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="351" width="145" x="1660" y="453"/>    
+    <position height="-1" width="-1" x="1071" y="292"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,7 +75,7 @@
   </class>  
   <class id="9" language="java" name="database.QuerySQL" project="buuretraum" 
     file="/buuretraum/src/main/java/database/QuerySQL.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="173" x="438" y="1181"/>    
+    <position height="-1" width="-1" x="597" y="842"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   </class>  
   <class id="10" language="java" name="database.InsertSQL" project="buuretraum" 
     file="/buuretraum/src/main/java/database/InsertSQL.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="135" width="158" x="651" y="1181"/>    
+    <position height="-1" width="-1" x="686" y="541"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
   </class>  
   <class id="11" language="java" name="database.LoadDataSQL" project="buuretraum" 
     file="/buuretraum/src/main/java/database/LoadDataSQL.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="99" width="113" x="849" y="1181"/>    
+    <position height="-1" width="-1" x="1280" y="992"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -101,75 +101,111 @@
     </display>  
   </class>  
   <association id="12">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="13" name="Farms"/>      
-      <multiplicity id="14" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="15">    
     <end type="SOURCE" refId="7" navigable="false">      
-      <attribute id="16" name="single_instance"/>      
-      <multiplicity id="17" minimum="0" maximum="1"/>    
+      <attribute id="13" name="single_instance">        
+        <position height="0" width="0" x="-16" y="-103"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-16" y="-103"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="19" name="q"/>      
-      <multiplicity id="20" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="21">    
+  <association id="15">    
     <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="22" name="ld"/>      
-      <multiplicity id="23" minimum="0" maximum="1"/>    
+      <attribute id="16" name="ld">        
+        <position height="0" width="0" x="375" y="-238"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="1">        
+        <position height="0" width="0" x="375" y="-238"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="11" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="24">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="25" name="q"/>      
-      <multiplicity id="26" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="9" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="27">    
+  <association id="18">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="28" name="i"/>      
-      <multiplicity id="29" minimum="0" maximum="1"/>    
+      <attribute id="19" name="i">        
+        <position height="0" width="0" x="-44" y="-707"/>      
+      </attribute>      
+      <multiplicity id="20" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-44" y="-707"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="10" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="30">    
+  <association id="21">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="31" name="mouseMotion"/>      
-      <multiplicity id="32" minimum="0" maximum="1"/>    
+      <attribute id="22" name="Farms">        
+        <position height="0" width="0" x="-309" y="-306"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-309" y="-306"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="25" name="mouseMotion">        
+        <position height="0" width="0" x="-180" y="-233"/>      
+      </attribute>      
+      <multiplicity id="26" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-180" y="-233"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="28" name="q">        
+        <position height="0" width="0" x="73" y="-442"/>      
+      </attribute>      
+      <multiplicity id="29" minimum="0" maximum="1">        
+        <position height="0" width="0" x="73" y="-442"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="31" name="q">        
+        <position height="0" width="0" x="73" y="-442"/>      
+      </attribute>      
+      <multiplicity id="32" minimum="0" maximum="1">        
+        <position height="0" width="0" x="73" y="-442"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <association id="33">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="34" name="mouse"/>      
-      <multiplicity id="35" minimum="0" maximum="1"/>    
+      <attribute id="34" name="ld">        
+        <position height="0" width="0" x="375" y="-238"/>      
+      </attribute>      
+      <multiplicity id="35" minimum="0" maximum="1">        
+        <position height="0" width="0" x="375" y="-238"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
+    <end type="TARGET" refId="11" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="36">    
     <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="37" name="ld"/>      
-      <multiplicity id="38" minimum="0" maximum="1"/>    
+      <attribute id="37" name="mouse">        
+        <position height="0" width="0" x="-116" y="-197"/>      
+      </attribute>      
+      <multiplicity id="38" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-116" y="-197"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
+    <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

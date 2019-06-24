@@ -2,12 +2,7 @@ package Sprites;
 
 public class Corn extends PlantFeatures { //Mais
 
-	public Corn() {
-		super();
-	}
-	
-	public void growth() {
-		
-	}
-
+	public Corn(int growrate, String name, int value, int lifespan) {
+        super(growrate, name, value, lifespan);
+    }
 }
